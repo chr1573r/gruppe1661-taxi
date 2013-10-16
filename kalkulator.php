@@ -28,7 +28,7 @@ else // Hvis Taxi sør er billigst:
 	$dyrestepris = $pris_agder;
 }
 
-echo "Du valgte $takst"
+echo "Du valgte $takst";
 echo "Billigste selskap: $billigsteselskap<br>";
 echo "Billigste pris: $billigstepris<br>";
 
