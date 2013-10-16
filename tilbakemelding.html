@@ -1,7 +1,20 @@
 <html dir="ltr" lang="en-US">
 <body>
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>
+  window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : 'taxicalc',                       
+      channelUrl : 'http://prosjekt.hia.no/users/chrisj13/prosjekt/taxicalc/tilbakemelding.html', 
+      status     : true,                                 
+      xfbml      : true                                  
+    });
+
+   
+  };
+
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
