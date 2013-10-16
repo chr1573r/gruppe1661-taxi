@@ -1,6 +1,8 @@
 <?php
 //Priser for taxi i agder!
-$antall_km=$_POST['Antall_km']; //Pris på antall km.
+$antall_km=$_POST['Antall_km']; //Henter antall km fra form
+$takst=$_POST['takst'];
+
 
 $startpris=62;// Start pris
 
@@ -26,7 +28,7 @@ else // Hvis Taxi sør er billigst:
 	$dyrestepris = $pris_agder;
 }
 
-
+echo "Du valgte $takst"
 echo "Billigste selskap: $billigsteselskap<br>";
 echo "Billigste pris: $billigstepris<br>";
 
