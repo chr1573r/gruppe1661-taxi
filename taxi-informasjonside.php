@@ -38,13 +38,7 @@ BODY {background-color: #5F9EA0;}
 </head>
 
 <body>
-<ul>
-<li><a href="taxicalc.html">Forside</a></li>
-<li><a href="taxi-informasjonside.html">Taxi informasjon</a></li>
-<li><a href="omoss.html">Om oss</a></li>
-
-<li> <a href="tilbakemelding.html">Tilbakemelding</a><li>
-</ul>
+<?php include("header.php");?>
 
 <br>
 
@@ -82,3 +76,7 @@ Adresse: Tinnheiveien 15 <br>
 Telefon: 380 02000
 <br>
 <a href="http://www.agdertaxi.no">http://www.agdertaxi.no/</a>
+
+<?php include("footer.php");?>
+
+</html>

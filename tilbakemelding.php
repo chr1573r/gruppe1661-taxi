@@ -58,13 +58,7 @@ width:150px;
 BODY {background-color: #5F9EA0;}
 </style>
 		
-<ul>
-<li><a href="taxicalc.html">Forside</a></li>
-<li><a href="taxi-informasjonside.html">Taxi informasjon</a></li>
-<li><a href="omoss.html">Om oss</a></li>
-
-<li> <a href="tilbakemelding.html">Tilbakemelding</a><li>
-</ul>
+<?php include("header.php");?>
 
 <div class="fb-comments"  
      data-colorscheme="light"	
@@ -76,6 +70,7 @@ BODY {background-color: #5F9EA0;}
 <br>
 
 </body>
+<?php include("footer.php");?>
 </html>
-</head>
+
 

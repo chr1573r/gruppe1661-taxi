@@ -38,13 +38,7 @@ BODY {background-color: #5F9EA0;}
 </head>
 
 <body>
-<ul>
-<li><a href="taxicalc.html">Forside</a></li>
-<li><a href="taxi-informasjonside.html">Taxi informasjon</a></li>
-<li><a href="#omoss.html">Om oss</a></li>
-
-<li> <a href="tilbakemelding.html">Tilbakemelding</a><li>
-
+<?php include("header.php");?>
 <br>
 
 <h2> OM OSS: </h2>
@@ -81,7 +75,7 @@ Funfact: Begynner å gråte hvis han taper 3 FIFA-kamper på rad
 </ul>
 
 <br>
-
+<?php include("footer.php");?>
 </html>
-</head>
+
 
