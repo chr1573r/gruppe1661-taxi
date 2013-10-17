@@ -2,6 +2,7 @@
 <ul>
 	<img src="img/PNG/Header.png" />
 	<img src="img/PNG/Menu.png" />
+<br>
 <li><a href="index.php">Forside</a></li>
 <li><a href="taxi-informasjonside.php">Taxi informasjon</a></li>
 <li><a href="omoss.php">Om oss</a></li>
