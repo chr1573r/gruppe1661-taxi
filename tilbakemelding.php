@@ -55,7 +55,7 @@ display:block;
 width:150px;
 }
 
-BODY {background-color: #5F9EA0;}
+BODY {background-color:#292929;}
 </style>
 		
 <?php include("header.php");?>
