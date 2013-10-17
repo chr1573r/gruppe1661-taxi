@@ -42,12 +42,9 @@ BODY {background-color: #5F9EA0;}
 
 <br>
 
-</html>
 </head>
 
 <head>
-<body>
- <meta charset="utf-8">
 
 Her har vi samlet informasjon om de ulike taxiselskapene i Kristiansand
 

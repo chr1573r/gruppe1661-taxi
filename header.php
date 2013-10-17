@@ -1,4 +1,3 @@
-<html>
 <!-- Denne filen inneholder bare navigasjonsmenyen -->
 <ul>
 <li><a href="index.php">Forside</a></li>
@@ -7,4 +6,3 @@
 <li> <a href="tilbakemelding.php">Tilbakemelding</a><li>
 
 </ul>
-</html>
