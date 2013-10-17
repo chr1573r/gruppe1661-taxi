@@ -52,7 +52,7 @@ Her har vi samlet informasjon om de ulike taxiselskapene i Kristiansand
 <br>
 
 
-<a href="http://www.taxisor.no"><img src="taxisor_logo.jpg" width="250" height="160" /></a>
+<a href="http://www.taxisor.no"><img src="img/taxisor_logo.jpg" width="250" height="160" /></a>
 <br>
 Taxi Sør AS
 <br>
@@ -63,7 +63,7 @@ Telefon: 380 28000
 <br>
 <a href="http://www.taxisor.no">http://www.taxisor.no/</a> 
 <br> <br> <br>
-<a href="http://www.agdertaxi.no/"><img src="agder_taxi_logo.jpg" /></a>
+<a href="http://www.agdertaxi.no/"><img src="img/agder_taxi_logo.jpg" /></a>
 <br>
 Agder Taxi AS
 <br>

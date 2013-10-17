@@ -42,7 +42,7 @@ BODY {background-color: #5F9EA0;}
 <br>
 
 <h2> OM OSS: </h2>
-<img src="gruppe1661_mnavn_png.png" alt="gruppebilde" width="700" height="450">
+<img src="img/gruppe1661_mnavn_png.png" alt="gruppebilde" width="700" height="450">
 <br>
 <br>
 
