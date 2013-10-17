@@ -24,7 +24,7 @@ width:150px;
 }
 
 ul {list-style-type:none;margin:10px}
-ul li a {text-decoration:none;background-color:#374457;color:white;padding:3px 
+ul li a {text-decoration:none;background-color:yellow;color:black;padding:3px 
 10px;
 margin:3px 10px;float:left;width:100px;clear:both;border:1px solid #374457}
 ul li a:hover {background-color:#7E93CC;color:black;}
