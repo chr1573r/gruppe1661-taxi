@@ -1,14 +1,9 @@
 <html>
 
 <head>
-<meta charset="UTF-8" />
-<title>TaxiCalc</title>
-
-<link rel="stylesheet" type="text/css" href="taxicalc.css">		
-
-<style>
-
-</style>
+	<meta charset="UTF-8" />
+	<title>TaxiCalc</title>
+	<link rel="stylesheet" type="text/css" href="taxicalc.css">
 </head>
 
 <body>

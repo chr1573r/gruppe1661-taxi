@@ -1,40 +1,8 @@
 <html dir="ltr" lang="en-US">
 <head>
-<meta charset="UTF-8" />
-<title>Taxi Informasjon </title>
-		
-<style>
-
-p {color: yellow; }
-p.normal {font-style:normal; }
-p{font-family:"Times New Roman", Times, serif;}
-p {font-size:125%}
-
-body {color:white;}
-body {font-size:105%;}
-
-ul
-{
-list-style-type:none;
-margin:0;
-padding:0;
-overflow:hidden;
-}
-li
-{
-float:left;
-}
-a
-{
-display:block;
-width:150px;
-}
-
-BODY {background-color:  #292929;}
-
-
-
-</style>
+	<meta charset="UTF-8" />
+	<title>TaxiCalc - Taxi informasjon</title>
+	<link rel="stylesheet" type="text/css" href="taxicalc.css">
 </head>
 
 <body>

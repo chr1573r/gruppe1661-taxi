@@ -1,4 +1,9 @@
 <html dir="ltr" lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <title>TaxiCalc - Tilbakemelding</title>
+  <link rel="stylesheet" type="text/css" href="taxicalc.css">
+</head>
 <body>
 <div id="fb-root"></div>
 <script>
