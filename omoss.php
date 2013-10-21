@@ -22,7 +22,7 @@ Funfact: <br> <br>
 <h3> Christer Jonassen: </h3>
 23 år <br>
 Fra Stavanger <br>
-Funfact: Ble avhørt av politiet etter planketyveri <br> <br>
+Funfact: Var gitarist i et "screamo"/metal band<br> <br>
 
 <h3> Christoffer Lien </h3>
 24 år <br>
