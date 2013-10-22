@@ -1,24 +1,25 @@
 <?php
-//Priser for taxi i agder!
+//Hent verdier fra input form:
 $antall_km=$_POST['Antall_km']; //Henter antall km fra form
 $takst=$_POST['takst']; // Henter dag/natt verdi
 
+
 if ($takst == "dag") // Hvis "dag" er valgt:
 {
-$startpris=62; // Start pris
+	$startpris=62; // Start pris
 
-$tillegspris_agder= 11.60 ;// kr. pr. km. hos AgderTaxi
-$tillegspris_sor= 13.04 ;// kr. pr. km. hos Taxi Sør
+	$tillegspris_agder= 11.60 ;// kr. pr. km. hos AgderTaxi
+	$tillegspris_sor= 13.04 ;// kr. pr. km. hos Taxi Sør
 }
 else // Hvis "kveld" er valgt:
 {
-$startpris=81;// Start pris
+	$startpris=81;// Start pris
 
-$tillegspris_agder= 15.10 ; // kr. pr. km. hos AgderTaxi
-$tillegspris_sor= 16.95 ; // kr. pr. km. hos Taxi Sør
+	$tillegspris_agder= 15.10 ; // kr. pr. km. hos AgderTaxi
+	$tillegspris_sor= 16.95 ; // kr. pr. km. hos Taxi Sør
 }
 
-
+// Regn ut total priser:
 $pris_agder=($antall_km*$tillegspris_agder)+$startpris;
 $pris_sor=($antall_km*$tillegspris_sor)+$startpris;
 
@@ -38,13 +39,13 @@ else // Hvis Taxi sør er billigst:
 	$dyrestepris = $pris_agder;
 }
 
+// Skriv ut resultat
 echo "Billigste selskap: $billigsteselskap<br>";
 echo "Billigste pris: $billigstepris<br>";
 
 echo "Dyreste selskap: $dyresteselskap<br>";
 echo "Dyreste pris: $dyrestepris<br><br>";
 echo "($takst-takst)<br>";
-include 'taxicalc.html';
-// Merge test
+include 'index.php';
  
 ?>
