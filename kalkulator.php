@@ -41,10 +41,10 @@ else // Hvis Taxi sør er billigst:
 
 // Skriv ut resultat
 echo "Billigste selskap: $billigsteselskap<br>";
-echo "Billigste pris: $billigstepris<br>";
+echo "Billigste pris: $billigstepris,-<br>";
 
 echo "Dyreste selskap: $dyresteselskap<br>";
-echo "Dyreste pris: $dyrestepris<br><br>";
+echo "Dyreste pris: $dyrestepris,-<br><br>";
 echo "($takst-takst)<br>";
 include 'index.php';
  
