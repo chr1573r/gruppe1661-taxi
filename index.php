@@ -16,8 +16,8 @@
 Fra: <input type="text" name="FirstName" value=""><br>
 Til: <input type="text" name="LastName" value=""><br>
 <form action="kalkulator.php" method="post">
-Km (midlertidig): <input type="text" name="Antall_km"><br>
-<input type="submit" value="Submit">
+Antall KM*: <input type="text" name="Antall_km"><br>
+<input type="submit" value="Beregn priser">
 
 <br>
 <p>Velg tidspunkt:</p>
@@ -44,6 +44,8 @@ Antall personer:<input type="text" name="antall personer" <br>
 
 
 
+
+<span style="font-size: 0.5em">*Kun dette feltet behandles av kalkulatoren på dette tidspunkt.</span>
 <br>
 <div align="left"> 
 
