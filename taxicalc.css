@@ -26,10 +26,11 @@ float:left;
 #meny_a
 {
 display:block;
-width:150px;
+/*width:150px;*/
 text-decoration:none;
 background-color:#FEC500;
-color:black;padding:3px 10px;
+color:black;
+padding:3px 10px;
 margin:3px 10px;
 float:left;
 width:100px;
@@ -37,6 +38,7 @@ clear:both;
 border:1px solid black
 text-align:center;
 }
+
 
 
 
