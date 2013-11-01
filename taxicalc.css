@@ -21,6 +21,7 @@ overflow:hidden;
 #meny_li
 {
 float:left;
+border:0px 2px 2px 0px solid gray
 }
 
 #meny_a
@@ -34,10 +35,7 @@ padding:3px 10px;
 margin:3px 10px;
 float:left;
 clear:both;
-border:0px 2px 2px 0px solid gray
 text-align:center;
 }
-
-
 
 
