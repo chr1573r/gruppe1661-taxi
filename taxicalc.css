@@ -24,8 +24,16 @@ width:150px;
 }
 
 ul {list-style-type:none;margin:10px}
-ul li a {text-decoration:none;background-color:#FFB800;color:black;padding:3px 
-10px;
-margin:3px 10px;float:left;width:100px;clear:both;border:1px solid black}
+ul li a {
+text-decoration:none;
+background-color:#FFB800;
+color:black;padding:3px 10px;
+margin:3px 10px;
+float:left;
+width:100px;
+clear:both;
+border:1px solid black
+text-align:center;
+}
 
 BODY {background-color: #292929;}
