@@ -40,7 +40,6 @@ Fra Risør <br>
 Funfact: Begynner å gråte hvis han taper 3 FIFA-kamper på rad
 
 
-</ul>
 
 <br>
 <?php include("footer.php");?>
