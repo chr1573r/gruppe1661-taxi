@@ -1,5 +1,5 @@
 h1 {
-	color: #DD9500;
+	color: #FEC500;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 125%;
 }
@@ -32,7 +32,7 @@ width:150px;
 ul {list-style-type:none;margin:10px}
 ul li a {
 text-decoration:none;
-background-color:#FFB800;
+background-color:#FEC500;
 color:black;padding:3px 10px;
 margin:3px 10px;
 float:left;
