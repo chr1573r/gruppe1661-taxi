@@ -21,7 +21,7 @@ overflow:hidden;
 #meny_li
 {
 float:left;
-border:0px 2px 2px 0px solid gray
+border:0px 20px 20px 0px solid red;
 }
 
 #meny_a
