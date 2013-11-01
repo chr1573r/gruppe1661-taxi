@@ -10,7 +10,7 @@
 <br>
 
 <h2> OM OSS: </h2>
-<img src="img/gruppe1661_mnavn_png.png" alt="gruppebilde" width="700" height="450">
+<img src="img/gruppe1661_mnavn_png.png" alt="gruppebilde">
 <br>
 <br>
 
