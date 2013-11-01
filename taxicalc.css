@@ -39,7 +39,10 @@ clear:both;
 text-align:center;
 font-style: bold;
 /* border:0px 20px 20px 0px solid red; */
-border-bottom: 2px solid #191918;
+border-top: 1px solid #191918;
+border-right: 1px solid #191918;
+border-bottom: 4px solid #191918;
+border-left: 1px solid #191918;
 }
 
 
