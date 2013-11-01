@@ -1,7 +1,8 @@
-p {color: yellow; }
-p.normal {font-style:normal; }
-p{font-family:"Times New Roman", Times, serif;}
-p {font-size:125%}
+h1 {
+	color: #DD9500;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 125%;
+}
 
 body {color:white;}
 body {font-size:105%;}

@@ -20,7 +20,7 @@ Kilometer*: <input type="text" name="Antall_km"><br>
 <input type="submit" value="Beregn priser">
 
 <br>
-<p>Velg tidspunkt:</p>
+<h1>Velg tidspunkt:</h1>
 
 
 <input type="radio" name="takst" value="dag" checked="checked">Dag<br>
