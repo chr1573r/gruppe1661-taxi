@@ -1,0 +1,8 @@
+Eksempel:
+Reise 0
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.no/maps?f=d&amp;source=s_d&amp;saddr=Ivar+Ballangruds+gate,+Stavanger&amp;daddr=Kasernenstra%C3%9Fe,+D%C3%BCsseldorf,+Tyskland&amp;hl=no&amp;geocode=FSqIgwMdqNFWACkzOK2Snko6RjG8ipjzp58SAw%3BFfKZDQMdZGNnACnnEXHaF8q4RzHuzfO4NZbMzg&amp;aq=1&amp;oq=kaser&amp;sll=64.55875,17.70995&amp;sspn=20.780079,79.013672&amp;mra=ls&amp;ie=UTF8&amp;ll=55.092769,7.912361&amp;spn=7.739487,4.451104&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.no/maps?f=d&amp;source=embed&amp;saddr=Ivar+Ballangruds+gate,+Stavanger&amp;daddr=Kasernenstra%C3%9Fe,+D%C3%BCsseldorf,+Tyskland&amp;hl=no&amp;geocode=FSqIgwMdqNFWACkzOK2Snko6RjG8ipjzp58SAw%3BFfKZDQMdZGNnACnnEXHaF8q4RzHuzfO4NZbMzg&amp;aq=1&amp;oq=kaser&amp;sll=64.55875,17.70995&amp;sspn=20.780079,79.013672&amp;mra=ls&amp;ie=UTF8&amp;ll=55.092769,7.912361&amp;spn=7.739487,4.451104&amp;t=m" style="color:#0000FF;text-align:left">Vis større kart</a></small>
+
+Reise 1:
+
+
+
