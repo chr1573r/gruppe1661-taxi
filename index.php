@@ -19,13 +19,11 @@ Til: <input type="text" name="LastName" value=""><br>
 Kilometer*: <input type="text" name="Antall_km"><br>
 <input type="submit" value="Beregn priser">
 <?php
-if{
-$Beregn priser= "Beregn priser"
-
-include("kalkulator.test.php");}
+if($Beregn priser= "Beregn priser")
+{include("kalkulator.test.php");}
 ?>
 <br>
-<h1>Velg tidspunkt:</h1>
+<p>Velg tidspunkt:</p>
 
 
 <input type="radio" name="takst" value="dag" checked="checked">Dag<br>
