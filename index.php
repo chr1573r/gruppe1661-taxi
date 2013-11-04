@@ -1,4 +1,4 @@
-<html>
+•<html>
 
 <head>
 	<meta charset="UTF-8" />
@@ -15,9 +15,16 @@
 
 Fra: <input type="text" name="FirstName" value=""><br>
 Til: <input type="text" name="LastName" value=""><br>
-<form action="kalkulator.php" method="post">
+<form action="index.php" method="post">
 Kilometer*: <input type="text" name="Antall_km"><br>
-<input type="submit" value="Beregn priser">
+<input type="submit" name="beregnpriser" value="Beregn priser">
+
+<?php
+if (isset($_POST['beregnpriser']))
+{
+   include("kalkulator.php");
+}
+?>
 
 <br>
 <p>Velg tidspunkt:</p>

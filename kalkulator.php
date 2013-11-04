@@ -46,6 +46,6 @@ echo "Billigste pris: $billigstepris,-<br>";
 echo "Dyreste selskap: $dyresteselskap<br>";
 echo "Dyreste pris: $dyrestepris,-<br><br>";
 echo "($takst-takst)<br>";
-include 'index.php';
+//include 'index.php';
  
 ?>
