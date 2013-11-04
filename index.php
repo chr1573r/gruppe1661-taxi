@@ -19,7 +19,7 @@ Til: <input type="text" name="LastName" value=""><br>
 Kilometer*: <input type="text" name="Antall_km"><br>
 <input type="submit" value="Beregn priser">
 <?php
-if($Beregn priser= "Beregn priser")
+if($Beregn priser= "Beregn priser";)
 {include("kalkulator.test.php");}
 ?>
 <br>

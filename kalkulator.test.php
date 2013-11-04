@@ -48,5 +48,5 @@ echo "Dyreste selskap: $dyresteselskap<br>";
 echo "Dyreste pris: $dyrestepris,-<br><br>";
 echo "($takst-takst)<br>";
 
- 
+ include("header.php");
 ?>
