@@ -18,7 +18,12 @@ Til: <input type="text" name="LastName" value=""><br>
 <form action="kalkulator.php" method="post">
 Kilometer*: <input type="text" name="Antall_km"><br>
 <input type="submit" value="Beregn priser">
+<?php
+if{
+$Beregn priser= "Beregn priser"
 
+include("kalkulator.test.php");}
+?>
 <br>
 <h1>Velg tidspunkt:</h1>
 
