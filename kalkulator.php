@@ -41,9 +41,9 @@ else // Hvis Taxi sør er billigst:
 
 // Skriv ut resultat
 //echo "Billigste selskap: $billigsteselskap<br>";//
-echo "TaxiAgder Pris: $billigstepris,-<br>";
+echo "TaxiAgder Pris: $billigstepris,-<br><br><br>";
 
-//echo "Dyreste selskap: $dyresteselskap<br>";//
+//echo "Dyreste selskap: $dyresteselskap<br><br><br>";//
 echo "TaxiSør Pris: $dyrestepris,-<br><br>";
 echo "($takst-takst)<br>";
 //include 'index.php';
