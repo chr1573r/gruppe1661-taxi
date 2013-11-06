@@ -13,30 +13,31 @@
 
 <div align="left">
 
+<form action="index.php" method="post">
 Fra:
 <select name="fra">
-	<option value="uiakrs">UiA Kristiansand</option>
-	<option value="uiagrim">UiA Grimstad</option>
-	<option value="kristiansand">Kristiansand sentrum</option>
-	<option value="mandal">Mandal sentrum</option>
-	<option value="vennesla">Vennesla sentrum</option>
-	<option value="sogne">Søgne sentrum</option>
-<select>
+	<option value="uik">UiA Kristiansand</option>
+	<option value="uig">UiA Grimstad</option>
+	<option value="krs">Kristiansand sentrum</option>
+	<option value="man">Mandal sentrum</option>
+	<option value="ven">Vennesla sentrum</option>
+	<option value="sog">Søgne sentrum</option>
+</select>
 
 Til:
 <select name="til">
-	<option value="uiakrs">UiA Kristiansand</option>
-	<option value="uiagrim">UiA Grimstad</option>
-	<option value="kristiansand">Kristiansand sentrum</option>
-	<option value="mandal">Mandal sentrum</option>
-	<option value="vennesla">Vennesla sentrum</option>
-	<option value="sogne">Søgne sentrum</option>
-<select>
+	<option value="uik">UiA Kristiansand</option>
+	<option value="uig">UiA Grimstad</option>
+	<option value="krs">Kristiansand sentrum</option>
+	<option value="man">Mandal sentrum</option>
+	<option value="ven">Vennesla sentrum</option>
+	<option value="sog">Søgne sentrum</option>
+</select>
 <br>
-<form action="index.php" method="post">
+
 Kilometer*: <input type="text" name="Antall_km"><br>
 <input type="submit" name="beregnpriser" value="Beregn priser">
-
+<br>
 <?php
 if (isset($_POST['beregnpriser']))
 {
