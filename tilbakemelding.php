@@ -1,12 +1,11 @@
-
+<?php
 // Emne tilbakemeldingen angÃ¥r
 $subject =$_POST['subject'];
 
 // Selve tilbakemeldingen
 $message=$_POST['detail'];
 
-// tekstfelt for innsender sin mail.
-$mail_from=$_POST['customer_mail']; 
+// tekstfelt for innsender sin mail.<?$mail_from=$_POST['customer_mail']; 
 
 // Navn var
 $name =$_POST['name'];
@@ -26,8 +25,6 @@ if($send_contact){
 echo "Vi har mottatt din tilbakemelding, takk  :-)";
 }
 else {
-echo "ERROR";
+echo "ERROR"; 
 }
 ?>
-</body>
-</html>
