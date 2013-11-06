@@ -8,14 +8,14 @@ if ($takst == "dag") // Hvis "dag" er valgt:
 {
 	$startpris=62; // Start pris
 
-	$tillegspris_agder= 11.60 ;// kr. pr. km. hos AgderTaxi
+	$tillegspris_agder= 11.60 ;// kr. pr. km. hos AgderTaxi<br><br>
 	$tillegspris_sor= 13.04 ;// kr. pr. km. hos Taxi Sør
 }
 else // Hvis "kveld" er valgt:
 {
 	$startpris=81;// Start pris
 
-	$tillegspris_agder= 15.10 ; // kr. pr. km. hos AgderTaxi
+	$tillegspris_agder= 15.10 ; // kr. pr. km. hos AgderTaxi<br><br>
 	$tillegspris_sor= 16.95 ; // kr. pr. km. hos Taxi Sør
 }
 

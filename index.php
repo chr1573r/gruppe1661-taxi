@@ -83,6 +83,6 @@ Antall personer:<input type="text" name="antall personer" <br>
 </div>
 </body>
 
-<?php include("tilbakemelding.php");?> 
+
 <?php include("footer.php");?>
 </html>
