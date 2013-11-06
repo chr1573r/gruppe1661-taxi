@@ -40,7 +40,7 @@ Kilometer*: <input type="text" name="Antall_km"><br>
 <?php
 if (isset($_POST['beregnpriser']))
 {
-   include("kalkulator.php");
+   *include("kalkulator.php");
 }
 ?>
 
