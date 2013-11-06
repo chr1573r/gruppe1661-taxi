@@ -39,13 +39,19 @@ else // Hvis Taxi sør er billigst:
 	$dyrestepris = $pris_agder;
 }
 
-// Skriv ut resultat
-//echo "Billigste selskap: $billigsteselskap<br>";//
-echo "TaxiAgder Pris: $billigstepris,-<br><br><br>";
+// Skriv ut resultat<
+//echo "Billigste selskap: $billigsteselskap<br>";//<br><br>
+echo "TaxiAgder Pris: $billigstepris,-<br><br>";
 
 //echo "Dyreste selskap: $dyresteselskap<br><br><br>";//
 echo "TaxiSør Pris: $dyrestepris,-<br><br>";
 echo "($takst-takst)<br>";
+
+if $person=['Antall_person']
+{
+$pris_agder=($antall_km*$tillegspris_agder/($person))+$startpris;
+$pris_sor=($antall_km*$tillegspris_sor/($person))+$startpris;
+} 
 //include 'index.php';
  
 ?>
