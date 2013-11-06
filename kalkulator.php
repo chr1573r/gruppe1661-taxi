@@ -1,8 +1,29 @@
 <?php
 //Hent verdier fra input form:
+$fra=$_POST['fra'];
+$til=$_POST['til']; 
 $antall_km=$_POST['Antall_km']; //Henter antall km fra form
 $takst=$_POST['takst']; // Henter dag/natt verdi
+$rutekode = "ingen"; // Setter blank standardverdi for rutekode
 
+
+function identifiserRute()
+// identifiserRute()
+//
+// Funksjon som kontrollerer at "fra" og "til" ikke er like.
+// Hvis "fra" og "til" er forskjellig, setter den sammen verdiene til en såkalt rutekode
+// Rutekoden er en unik identifikator som brukes når vi skal laste inn rett kart for reisen.
+{
+	global $fra, $til, $rutekode;		//Sørg for at fra, til og rutekode manipuleres globalt
+	if ( "$fra" != "$til" )
+		{
+			$rutekode= $fra . $til;		// Setter sammen fra og til, f.eks. krsman for "kristiansand -> mandal"
+		}
+	else
+		{
+			return "feil";			// Returnerer verdien "feil". Dette skjer hvis fra og til har samme verdi.
+		}
+}
 
 if ($takst == "dag") // Hvis "dag" er valgt:
 {
@@ -45,8 +66,16 @@ echo "TaxiAgder Pris: $billigstepris,-<br><br>";
 
 //echo "Dyreste selskap: $dyresteselskap<br><br><br>";//
 echo "TaxiSør Pris: $dyrestepris,-<br><br>";
-echo "($takst-takst)<br>";
+echo "(Takst:$takst)<br>";
 
-//include 'index.php';
- 
+if ( identifiserRute() != "feil" ) // Identifiser ruten som er valg i input form og se om den er gyldig
+	{
+		echo "Aktivert rute: $rutekode";
+	}
+else
+	{
+		echo "Fra og til kan ikke være samme sted!<br>";
+		echo "Velg på nytt.<br>";
+	}
+
 ?>
