@@ -1,52 +1,33 @@
-<html dir="ltr" lang="en-US">
-<head>
-  <meta charset="UTF-8" />
-  <title>TaxiCalc - Tilbakemelding</title>
-  <link rel="stylesheet" type="text/css" href="taxicalc.css">
-</head>
-<body>
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-   
-    FB.init({
-      appId      : '170352443159090',                       
-      channelUrl : 'http://prosjekt.hia.no/users/chrisj13/prosjekt/taxicalc/tilbakemelding.html', 
-      status     : true,                                 
-                                      
-    });
 
-   
-  };
+// Emne tilbakemeldingen angÃ¥r
+$subject =$_POST['subject'];
 
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "http://prosjekt.hia.no/users/chrisj13/prosjekt/taxicalc/tilbakemelding.html";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-	
-</script>
+// Selve tilbakemeldingen
+$message=$_POST['detail'];
 
-<head>
+// tekstfelt for innsender sin mail.
+$mail_from=$_POST['customer_mail']; 
 
-<meta charset="UTF-8" />
-<title>Tilbakemelding </title>
-		
-<?php include("header.php");?>
+// Navn var
+$name =$_POST['name'];
 
-<div class="fb-comments"  
-     data-colorscheme="light"	
-     data-href="http://prosjekt.hia.no/users/chrisj13/prosjekt/taxicalc/tilbakemelding.html"
-     data-num-posts="6"
-     data-width="550">
-</div>
+// Hvordan header i mailen skal se ut. Velger at navnet som plottes inn skal vises.
+$header="from: $name <$mail_from>";
 
-<br>
+// Mottaker av tilbakemelding sammen med hvilken innhold mottaker skal fÃ¥.
+$to ='taxicalx@live.no';
 
+//$send_contact=mail($to,$subject,$message,$header);
+
+// Sjekk, hvis tilbakemeldingen ble sendt til mail skal
+// displaymelding vÃ¦re "Vi har mottatt din tilbakemelding, takk  // SocialPost. :-)", om ikke den ble sendt; "Error".
+
+if($send_contact){
+echo "Vi har mottatt din tilbakemelding, takk  :-)";
+}
+else {
+echo "ERROR";
+}
+?>
 </body>
-<?php include("footer.php");?>
 </html>
-
-
