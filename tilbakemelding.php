@@ -12,7 +12,7 @@
 <p> Skriv en tilbakemelding på TaxiCalc sin Facebookside! </p>	
 <br>
 <br>
-<div align="left">
+<div align="center">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
