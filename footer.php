@@ -1,4 +1,5 @@
 <!-- Denne filen inneholder bare footer -->
+<hr>
 <div align="center">
 		<div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -10,6 +11,6 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="fb-like" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-		<hr>
-	<p> © Gruppe 1661 / Year--> 2013
+		
+	<h1> © Gruppe 1661 - År 2013 </h1>
 		</div>
