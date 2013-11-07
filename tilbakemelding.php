@@ -7,9 +7,10 @@
 <body>
 <?php include("header.php");?>
 
-<div align="center">
+<div align="left">
 
-<p> Skriv en tilbakemelding på TaxiCalc sin Facebookside! </p>	
+<h1> Skriv en tilbakemelding på TaxiCalc sin Facebookside! </h1>	
+
 <br>
 <br>
 <div align="left">
