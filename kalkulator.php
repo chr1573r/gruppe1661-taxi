@@ -77,5 +77,6 @@ else
 		echo "Fra og til kan ikke være samme sted!<br>";
 		echo "Velg på nytt.<br>";
 	}
+return $rutekode;
 
 ?>
