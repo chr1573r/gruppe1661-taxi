@@ -18,7 +18,9 @@ do
 	do
 		if [ "$fra" != "$til" ]; then
     		echo -e "case \"$fra$til\":"
+    		echo -e "?>"
     		echo -e "// SETT INN KART FOR $fra-$til PÅ DENNE LINJEN"
+    		echo -e "<?php"
     		echo -e "break;"
     		echo -e ""
 		fi
