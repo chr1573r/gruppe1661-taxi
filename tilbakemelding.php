@@ -1,8 +1,11 @@
 <html>
 <head>
+	<meta charset="UTF-8" />
+	<title>TaxiCalc</title>
+	<link rel="stylesheet" type="text/css" href="taxicalc.css">
 </head>
 <body>
-
+<?php include("header.php");?>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -16,4 +19,6 @@
 
 <div class="fb-comments" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-colorscheme="light" data-numposts="10" data-width="800"></div>
 </body>
+
+<?php include("footer.php");?>
 </html>
