@@ -4,6 +4,7 @@
 <h1> © Gruppe 1661 - År 2013 </h1>
 		</div>
 
+		<div align="center">
 		<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
