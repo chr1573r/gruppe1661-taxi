@@ -26,16 +26,16 @@ Fra:
 
 Til:
 <select name="til">
+	<option value="krs">Kristiansand sentrum</option>
 	<option value="uik">UiA Kristiansand</option>
 	<option value="uig">UiA Grimstad</option>
-	<option value="krs">Kristiansand sentrum</option>
 	<option value="man">Mandal sentrum</option>
 	<option value="ven">Vennesla sentrum</option>
 	<option value="sog">Søgne sentrum</option>
 </select>
 <br>
 
-Kilometer*: <input type="text" name="Antall_km"><br>
+Kilometer: <input type="text" name="Antall_km"><br>
 <input type="submit" name="beregnpriser" value="Beregn priser">
 <br>
 <?php
@@ -61,24 +61,23 @@ if (isset($_POST['beregnpriser']))
 
 
 
-Antall personer:<input type="text" name="antall personer" <br>
-
-
-
+Antall personer:<input type="text" name="antall personer"> <br>
 
 </form>
 
 
-
-
-<span style="font-size: 0.8em">*Kun dette feltet behandles av kalkulatoren på dette tidspunkt.</span>
 <br>
 <div align="left"> 
 
 	
 <div align="center">
 
-<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.no/?ie=UTF8&amp;t=p&amp;ll=58.146975,7.995129&amp;spn=0.021742,0.054932&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.no/?ie=UTF8&amp;t=p&amp;ll=58.146975,7.995129&amp;spn=0.021742,0.054932&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">Vis større kart</a></small>	
+<?php
+if (isset($_POST['beregnpriser']))
+{
+   include("hentkart.php");
+}
+?>
 
 
 </div>
