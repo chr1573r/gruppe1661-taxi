@@ -1,6 +1,9 @@
 <!-- Denne filen inneholder bare footer -->
 <hr>
 <div align="center">
+<h1> © Gruppe 1661 - År 2013 </h1>
+		</div>
+
 		<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -10,7 +13,4 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="fb-like" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-		
-	<h1> © Gruppe 1661 - År 2013 </h1>
-		</div>
+<div class="fb-like" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
