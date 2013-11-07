@@ -7,12 +7,12 @@
 <body>
 <?php include("header.php");?>
 
-<div align="left">
+<div align="center">
 
 <p> Skriv en tilbakemelding på TaxiCalc sin Facebookside! </p>	
 <br>
 <br>
-<div align="center">
+<div align="left">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
