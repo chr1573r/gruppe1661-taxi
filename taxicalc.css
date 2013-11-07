@@ -44,6 +44,15 @@ border-top: 1px solid #191918;
 border-right: 1px solid #191918;
 border-bottom: 4px solid #191918;
 border-left: 1px solid #191918;
+
 }
 
+.fb-comments 
+{
+color:white;
+}
 
+#fb-root
+{
+color:white;
+}
