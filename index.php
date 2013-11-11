@@ -61,24 +61,23 @@ if (isset($_POST['beregnpriser']))
  
 
 <form action="index.php" method="post">
+
 <?php
 Taxi pris:<input type="text" name="pris_taxi" <br>
 
 Antall personer:<input type="text" name="antall_person" <br>
 
 <input type="submit" name="Pris" value="Pris pr. peroner">
-<?php
+
 if (isset($_POST['Pris']))
 {
    include("prisperpers.php");
 }
-
+?>
 </form>
 
 
-<br>
-<div align="left"> 
-
+ 
 	
 <div align="center">
 
