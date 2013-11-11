@@ -11,10 +11,6 @@
 
 <br>
 
-<body>
-<?php include("prisperpers.php");?>
-
-<br>
 
 <div align="left">
 
@@ -64,9 +60,18 @@ if (isset($_POST['beregnpriser']))
 <input type="checkbox" name="extra information" value="Ekstra bagasje">Jeg har med ekstra bagasje<br> 
  
 
+<form action="index.php" method="post">
+<?php
+Taxi pris:<input type="text" name="pris_taxi" <br>
 
+Antall personer:<input type="text" name="antall_person" <br>
 
-Antall personer:<input type="text" name="antall personer"> <br>
+<input type="submit" name="Pris" value="Pris pr. peroner">
+<?php
+if (isset($_POST['Pris']))
+{
+   include("prisperpers.php");
+}
 
 </form>
 
