@@ -8,5 +8,5 @@ $produkt= $pris/$antall;
 echo "$produkt= ($pris/$antall)";
 echo "pris_pr.person";
 
-include("index.php");
+
 ?>
