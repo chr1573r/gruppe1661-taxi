@@ -64,7 +64,7 @@ if (isset($_POST['beregnpriser']))
 
 
 Taxi pris:<input type="text" name="pris_taxi" <br>
-
+<br>
 Antall personer:<input type="text" name="antall_person" <br>
 
 <input type="submit" name="Pris" value="Pris pr. peroner">
