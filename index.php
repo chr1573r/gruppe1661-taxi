@@ -54,12 +54,14 @@ if (isset($_POST['beregnpriser']))
 <input type="radio" name="takst" value="kveld">Kveld/natt/helg<span id="takstinfo"><br> man-fre 20:00-24:00<br>
 lørdag 06:00-18:00<br>
 søndag 06:00-06:00</span><br>
+<br>
 
 
-<form action="index.php" method="post">
 
 
 Taxi pris:<input type="text" name="pris_taxi"> 
+
+
 <div align="left">
 
 <form action="index.php" method="post">
