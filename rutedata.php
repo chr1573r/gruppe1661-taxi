@@ -38,12 +38,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR uik-uig HER
+					$antall_km = 44.4;
+					$reisetid_min = 33;
+					$reisetid_tekst = "0t 33min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR uik-uig PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=UiA,+Kristiansand,+Norway&amp;daddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;hl=en&amp;geocode=FXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w%3BFTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg&amp;aq=0&amp;oq=Jon+Lilletuns+vei+9&amp;sll=37.0625,-95.677068&amp;sspn=36.589577,77.783203&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.250282,8.290558&amp;spn=0.346868,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=UiA,+Kristiansand,+Norway&amp;daddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;hl=en&amp;geocode=FXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w%3BFTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg&amp;aq=0&amp;oq=Jon+Lilletuns+vei+9&amp;sll=37.0625,-95.677068&amp;sspn=36.589577,77.783203&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.250282,8.290558&amp;spn=0.346868,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
