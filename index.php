@@ -58,12 +58,11 @@ søndag 06:00-06:00</span><br>
 
 
 
-
-Taxi pris:<input type="text" name="pris_taxi"> 
-
 <div align="left">
 
 <form action="index.php" method="post">
+
+Taxi pris:<input type="text" name="pris_taxi"> 
 
 <select name="Antall personer">
 	<option name="kode" value="2">2 personer</option>

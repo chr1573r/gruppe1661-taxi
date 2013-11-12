@@ -2,7 +2,7 @@
 <?php
 $pris=$_POST['pris_taxi']; 
 $kode =$_POST['kode']
-$produkt= $pris/$antall;
+$produkt= $pris/$kode;
 while ($antall<=10);
 
 
