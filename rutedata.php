@@ -72,12 +72,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR uik-man HER
+					$antall_km = 44.8;
+					$reisetid_min = 42;
+					$reisetid_tekst = "0t 42min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR uik-man PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=UiA,+Kristiansand,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;hl=en&amp;geocode=FXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+elve&amp;sll=58.250741,8.290359&amp;sspn=0.190052,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.120693,7.754974&amp;spn=0.348135,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=UiA,+Kristiansand,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;hl=en&amp;geocode=FXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+elve&amp;sll=58.250741,8.290359&amp;sspn=0.190052,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.120693,7.754974&amp;spn=0.348135,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -87,12 +89,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR uik-ven HER
+					$antall_km = 16.9;
+					$reisetid_min = 20;
+					$reisetid_tekst = "0t 20min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR uik-ven PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=University+of+Agder,+Kristiansand,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=FXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=torsby&amp;sll=58.096244,7.73878&amp;sspn=0.204304,0.607681&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.213408,7.971268&amp;spn=0.112799,0.081679&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=University+of+Agder,+Kristiansand,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=FXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=torsby&amp;sll=58.096244,7.73878&amp;sspn=0.204304,0.607681&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.213408,7.971268&amp;spn=0.112799,0.081679" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -102,12 +106,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR uik-sog HER
+					$antall_km = 18.3;
+					$reisetid_min = 19;
+					$reisetid_tekst = "0t 19min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR uik-sog PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=UiA,+Kristiansand,+Norway&amp;daddr=Tangvall,+S%C3%B8gne,+Norway&amp;hl=en&amp;geocode=FXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=0&amp;oq=tangvall+s%C3%B8gne&amp;sll=58.096388,7.738495&amp;sspn=0.190878,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.133021,7.915649&amp;spn=0.087003,0.219727&amp;z=12&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=UiA,+Kristiansand,+Norway&amp;daddr=Tangvall,+S%C3%B8gne,+Norway&amp;hl=en&amp;geocode=FXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=0&amp;oq=tangvall+s%C3%B8gne&amp;sll=58.096388,7.738495&amp;sspn=0.190878,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.133021,7.915649&amp;spn=0.087003,0.219727&amp;z=12" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -117,12 +123,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR uig-uik HER
+					$antall_km = 44.4;
+					$reisetid_min = 33;
+					$reisetid_tekst = "0t 33min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR uig-uik PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=Uia&amp;sll=58.130506,7.916719&amp;sspn=0.095348,0.303841&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.251727,8.290558&amp;spn=0.346853,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=Uia&amp;sll=58.130506,7.916719&amp;sspn=0.095348,0.303841&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.251727,8.290558&amp;spn=0.346853,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -132,12 +140,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR uig-krs HER
+					$antall_km = 46.3;
+					$reisetid_min = 33;
+					$reisetid_tekst = "0t 33min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR uig-krs PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=Markens+gate,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFeg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA&amp;aq=0&amp;oq=marken&amp;sll=58.251405,8.290359&amp;sspn=0.190048,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.273399,8.271332&amp;spn=0.346641,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=Markens+gate,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFeg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA&amp;aq=0&amp;oq=marken&amp;sll=58.251405,8.290359&amp;sspn=0.190048,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.273399,8.271332&amp;spn=0.346641,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -147,12 +157,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR uig-man HER
+					$antall_km = 86.6;
+					$reisetid_min = 68;
+					$reisetid_tekst = "1t 8min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR uig-man PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+elve&amp;sll=58.243328,8.282288&amp;sspn=0.380187,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.198214,8.118896&amp;spn=0.694759,1.757813&amp;z=9&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+elve&amp;sll=58.243328,8.282288&amp;sspn=0.380187,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.198214,8.118896&amp;spn=0.694759,1.757813&amp;z=9" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -162,12 +174,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR uig-ven HER
+					$antall_km = 59,7;
+					$reisetid_min = 48;
+					$reisetid_tekst = "0t 48min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR uig-ven PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=torsbyve&amp;sll=58.185185,8.017273&amp;sspn=0.380807,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.237272,8.278198&amp;spn=0.346995,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=torsbyve&amp;sll=58.185185,8.017273&amp;sspn=0.380807,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.237272,8.278198&amp;spn=0.346995,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -177,12 +191,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR uig-sog HER
+					$antall_km = 60.1;
+					$reisetid_min = 46;
+					$reisetid_tekst = "0t 46min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR uig-sog PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=Tangvall,+S%C3%B8gne,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=0&amp;oq=tangvall+s%C3%B8gne&amp;sll=58.248837,8.253479&amp;sspn=0.380125,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.223534,8.205414&amp;spn=0.347129,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;daddr=Tangvall,+S%C3%B8gne,+Norway&amp;hl=en&amp;geocode=FTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=0&amp;oq=tangvall+s%C3%B8gne&amp;sll=58.248837,8.253479&amp;sspn=0.380125,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.223534,8.205414&amp;spn=0.347129,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -192,12 +208,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR krs-uik HER
+					$antall_km = 3.9;
+					$reisetid_min = 7;
+					$reisetid_tekst = "0t 7min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR krs-uik PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=Markens&amp;sll=58.130506,7.916988&amp;sspn=0.095348,0.303841&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.154539,8.002338&amp;spn=0.021738,0.054932&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=Markens&amp;sll=58.130506,7.916988&amp;sspn=0.095348,0.303841&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.154539,8.002338&amp;spn=0.021738,0.054932&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -207,12 +225,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR krs-uig HER
+					$antall_km = 46.3;
+					$reisetid_min = 33;
+					$reisetid_tekst = "0t 33min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR krs-uig PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg&amp;aq=0&amp;oq=markens&amp;sll=58.219195,8.195801&amp;sspn=0.380443,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.261842,8.313904&amp;spn=0.346755,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg&amp;aq=0&amp;oq=markens&amp;sll=58.219195,8.195801&amp;sspn=0.380443,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.261842,8.313904&amp;spn=0.346755,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -222,12 +242,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR krs-man HER
+					$antall_km = 41.7;
+					$reisetid_min = 40;
+					$reisetid_tekst = "0t 40min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR krs-man PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+elve&amp;sll=58.242332,8.282318&amp;sspn=0.380195,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.088041,7.726135&amp;spn=0.348453,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+elve&amp;sll=58.242332,8.282318&amp;sspn=0.380195,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.088041,7.726135&amp;spn=0.348453,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -237,12 +259,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR krs-ven HER
+					$antall_km = 17.7;
+					$reisetid_min = 21;
+					$reisetid_tekst = "0t 21min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR krs-ven PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=torsbyvege&amp;sll=58.087908,7.726512&amp;sspn=0.190923,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.207621,7.974701&amp;spn=0.173642,0.439453&amp;z=11&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=torsbyvege&amp;sll=58.087908,7.726512&amp;sspn=0.190923,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.207621,7.974701&amp;spn=0.173642,0.439453&amp;z=11" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -252,12 +276,14 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR krs-sog HER
+					$antall_km = 15.3;
+					$reisetid_min = 17;
+					$reisetid_tekst = "0t 17min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR krs-sog PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=Tangvall+s%C3%B8gne&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=&amp;sll=58.12217,7.90445&amp;sspn=0.102079,0.303841&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.12217,7.90445&amp;spn=0.050587,0.180594&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Markens+gate,+Kristiansand,+Norway&amp;daddr=Tangvall+s%C3%B8gne&amp;hl=en&amp;geocode=Feg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=&amp;sll=58.12217,7.90445&amp;sspn=0.102079,0.303841&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.12217,7.90445&amp;spn=0.050587,0.180594" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
