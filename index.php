@@ -90,7 +90,7 @@ if (isset($_POST['Pris']))
 <?php
 if (isset($_POST['beregnpriser']))
 {
-   include("hentkart.php");
+	rutedata("viskart");
 }
 ?>
 
