@@ -17,7 +17,7 @@
 <h3> Nadia Nabiyar </h3> 
 24 år <br>
 Fra Danmark <br>
-Funfact: <br> <br>
+Funfact:Nei... <br> <br>
 
 <h3> Christer Jonassen: </h3>
 23 år <br>
@@ -37,7 +37,7 @@ Funfact: Har en morbid humor <br> <br>
 <h3> Pål Sandnes </h3>
 21 år <br>
 Fra Risør <br>
-Funfact: Begynner å gråte hvis han taper 3 FIFA-kamper på rad
+Funfact: Begynner å grine hvis han taper 3 FIFA-kamper på rad
 
 
 
