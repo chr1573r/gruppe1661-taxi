@@ -66,7 +66,9 @@ Taxi pris:<input type="text" name="pris_taxi"
 	<option value="uik">3 personer</option>
 	<option value="uik">4 personer</option>
 	<option value="uik">5 personer</option>
-	
+	</select>
+<br>
+
 
 <input type="submit" name="Pris" value="Pris pr. peroner">
 <?php
