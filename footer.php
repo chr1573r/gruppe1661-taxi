@@ -1,6 +1,6 @@
 <!-- Denne filen inneholder bare footer -->
 
-		<div align="center">
+		<div align="right">
 		<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
