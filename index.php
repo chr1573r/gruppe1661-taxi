@@ -50,22 +50,23 @@ if (isset($_POST['beregnpriser']))
 <p>Velg tidspunkt:</p>
 
 
-<input type="radio" name="takst" value="dag" checked="checked">DAG <span id="takstinfo"> man-fre 06:00-20:00</span><br>
-<input type="radio" name="takst" value="kveld">KVELD/NATT/HELG<span id="takstinfo"> man-fre 20:00-24:00<br>
+<input type="radio" name="takst" value="dag" checked="checked">Dag <span id="takstinfo"> man-fre 06:00-20:00</span><br>
+<input type="radio" name="takst" value="kveld">Kveld/natt/helg<span id="takstinfo"><br> man-fre 20:00-24:00<br>
 lørdag 06:00-18:00<br>
 søndag 06:00-06:00</span><br>
 
 
-<input type="checkbox" name="extra information" value="Maxitaxi">Jeg trenger en Maxitaxi<br>
-<input type="checkbox" name="extra information" value="Ekstra bagasje">Jeg har med ekstra bagasje<br> 
- 
-
 <form action="index.php" method="post">
 
 
-Taxi pris:<input type="text" name="pris_taxi" <br>
-<br>
-Antall personer:<input type="text" name="antall_person" <br>
+Taxi pris:<input type="text" name="pris_taxi"
+
+<select name="Antall personer">
+	<option value="uik">2 personer</option>
+	<option value="uik">3 personer</option>
+	<option value="uik">4 personer</option>
+	<option value="uik">5 personer</option>
+	
 
 <input type="submit" name="Pris" value="Pris pr. peroner">
 <?php
