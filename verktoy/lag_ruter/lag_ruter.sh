@@ -17,17 +17,26 @@ do
 	while read -r til
 	do
 		if [ "$fra" != "$til" ]; then
-    		echo -e "case \"$fra$til\":"
-    		echo -e "?>"
-    		echo -e "// SETT INN KART FOR $fra-$til PÅ DENNE LINJEN"
-    		echo -e "<?php"
-    		echo -e "break;"
+    		echo -e "	case '$fra$til':	//Hvis rute er identifisert som $fra$til"
+    		echo -e ""
+    		echo -e "		switch (\"\$parameter\") {"
+    		echo -e "			case 'hentinfo':	//Sett variabler for reisen"
+    		echo -e "				//SETT INN VARIABLER FOR $fra-$til HER"
+    		echo -e "				break;"
+    		echo -e ""
+    		echo -e "			case 'viskart':		//Vis HTML kart"
+    		echo -e "				?>"
+    		echo -e "				SETT INN KART FOR $fra-$til PÅ DENNE LINJEN"
+    		echo -e "				<?php"
+    		echo -e "				break;"
+    		echo -e "		}"
+    		echo -e "	break;"
     		echo -e ""
 		fi
 	done < steder.txt
 done < steder.txt
- echo -e "case \"feil\":"
- echo -e "break;"
- echo -e ""
+echo -e "	case 'feil':"
+echo -e "	break;"
+echo -e ""
 echo -e "}"
 echo -e "?>"
