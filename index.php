@@ -36,7 +36,6 @@ Til:
 </select>
 <br>
 
-Kilometer: <input type="text" name="Antall_km"><br>
 <input type="submit" name="beregnpriser" value="Beregn priser">
 <br>
 <?php
