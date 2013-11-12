@@ -25,14 +25,14 @@ function identifiserRute()
 		}
 }
 
-if ($takst == "dag") // Hvis "dag" er valgt:
+if ($takst == "DAG") // Hvis "dag" er valgt:
 {
 	$startpris=62; // Start pris
 
 	$tillegspris_agder= 11.60 ;// kr. pr. km. hos AgderTaxi<br><br>
 	$tillegspris_sor= 13.04 ;// kr. pr. km. hos Taxi Sør
 }
-else // Hvis "kveld" er valgt:
+else // Hvis "KVELD/NATT/HELG" er valgt:
 {
 	$startpris=81;// Start pris
 
