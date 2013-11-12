@@ -24,9 +24,11 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-<div class="fb-comments" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-colorscheme="dark" data-numposts="10" data-width="800"></div>
+<div class="fb-comments" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-colorscheme="dark" data-numposts="20" data-width="600"></div>
+
 
 </body>
 
 <?php include("footer.php");?>
 </html>
+
