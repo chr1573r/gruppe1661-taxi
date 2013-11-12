@@ -6,67 +6,66 @@ $antall_km=$_POST['Antall_km']; //Henter antall km fra form
 $takst=$_POST['takst']; // Henter dag/natt verdi
 $rutekode = "ingen"; // Setter blank standardverdi for rutekode
 
+include("rutedata.php");
 
-function identifiserRute()
-// identifiserRute()
-//
-// Funksjon som kontrollerer at "fra" og "til" ikke er like.
-// Hvis "fra" og "til" er forskjellig, setter den sammen verdiene til en såkalt rutekode
-// Rutekoden er en unik identifikator som brukes når vi skal laste inn rett kart for reisen.
+function BeregnTakst()
 {
-	global $fra, $til, $rutekode;		//Sørg for at fra, til og rutekode manipuleres globalt
-	if ( "$fra" != "$til" )
-		{
-			$rutekode= $fra . $til;		// Setter sammen fra og til, f.eks. krsman for "kristiansand -> mandal"
-		}
-	else
-		{
-			return "feil";			// Returnerer verdien "feil". Dette skjer hvis fra og til har samme verdi.
-		}
+	global $takst, $startpris, $tillegspris_sor, $tillegspris_agder;
+	if ($takst == "dag") // Hvis "dag" er valgt:
+	{
+		$startpris=62; // Start pris
+
+		$tillegspris_agder= 11.60 ;// kr. pr. km. hos AgderTaxi<br><br>
+		$tillegspris_sor= 13.04 ;// kr. pr. km. hos Taxi Sør
+	}
+	else // Hvis "KVELD/NATT/HELG" er valgt:
+	{
+		$startpris=81;// Start pris
+
+		$tillegspris_agder= 15.10 ; // kr. pr. km. hos AgderTaxi<br><br>
+		$tillegspris_sor= 16.95 ; // kr. pr. km. hos Taxi Sør
+	}
+	//return ;
 }
 
-if ($takst == "DAG") // Hvis "dag" er valgt:
+function RegnUt()
 {
-	$startpris=62; // Start pris
+	global $antall_km, $startpris, $tillegspris_sor, $tillegspris_agder, $pris_agder, $pris_sor, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris;
+	// Regn ut total priser:
+	$pris_agder=($antall_km*$tillegspris_agder)+$startpris;
+	$pris_sor=($antall_km*$tillegspris_sor)+$startpris;
 
-	$tillegspris_agder= 11.60 ;// kr. pr. km. hos AgderTaxi<br><br>
-	$tillegspris_sor= 13.04 ;// kr. pr. km. hos Taxi Sør
-}
-else // Hvis "KVELD/NATT/HELG" er valgt:
-{
-	$startpris=81;// Start pris
+	if ($pris_agder < $pris_sor) // Hvis Taxi sør er dyrere:
+	{
 
-	$tillegspris_agder= 15.10 ; // kr. pr. km. hos AgderTaxi<br><br>
-	$tillegspris_sor= 16.95 ; // kr. pr. km. hos Taxi Sør
-}
-
-// Regn ut total priser:
-$pris_agder=($antall_km*$tillegspris_agder)+$startpris;
-$pris_sor=($antall_km*$tillegspris_sor)+$startpris;
-
-if ($pris_agder < $pris_sor) // Hvis Taxi sør er dyrere:
-{
-
-	$billigsteselskap = "Agder Taxi";
-	$billigstepris = $pris_agder;
-	$dyresteselskap = "Taxi Sør";
-	$dyrestepris = $pris_sor;
-}
-else // Hvis Taxi sør er billigst:
-{
-	$billigsteselskap = "Taxi Sør";
-	$billigstepris = $pris_sor;
-	$dyresteselskap = "Agder Taxi";
-	$dyrestepris = $pris_agder;
+		$billigsteselskap = "Agder Taxi";
+		$billigstepris = $pris_agder;
+		$dyresteselskap = "Taxi Sør";
+		$dyrestepris = $pris_sor;
+	}
+	else // Hvis Taxi sør er billigst:
+	{
+		$billigsteselskap = "Taxi Sør";
+		$billigstepris = $pris_sor;
+		$dyresteselskap = "Agder Taxi";
+		$dyrestepris = $pris_agder;
+	}
+	//return $pris_agder, $pris_sor, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris;
 }
 
-// Skriv ut resultat<
-//echo "Billigste selskap: $billigsteselskap<br>";//<br><br>
-echo "TaxiAgder Pris: $billigstepris,-<br><br>";
+function SkrivUtResultat()
+	{
+	global $takst, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris;
+	// Skriv ut resultat
+	echo "Billigste pris: $billigstepris,- ($billigsteselskap)<br><br>";
 
-//echo "Dyreste selskap: $dyresteselskap<br><br><br>";//
-echo "TaxiSør Pris: $dyrestepris,-<br><br>";
-echo "(Takst:$takst)<br>";
+	echo "Dyreste pris: $dyrestepris,- ($dyresteselskap)<br><br>";
+	echo "(Takst:$takst)<br>";
+	}
+
+BeregnTakst();
+RegnUt();
+SkrivUtResultat();
 
 if ( identifiserRute() != "feil" ) // Identifiser ruten som er valg i input form og se om den er gyldig
 	{
