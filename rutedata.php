@@ -298,7 +298,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR man-uik PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=uia&amp;sll=58.206897,7.967148&amp;sspn=0.190287,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.104734,7.743988&amp;spn=0.34829,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=uia&amp;sll=58.206897,7.967148&amp;sspn=0.190287,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.104734,7.743988&amp;spn=0.34829,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -313,7 +313,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR man-uig PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg&amp;aq=t&amp;sll=58.096388,7.739182&amp;sspn=0.190878,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.185185,8.017273&amp;spn=0.695014,1.757813&amp;z=9&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=Jon+Lilletuns+Vei+9,+Grimstad,+Norway&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFTAdegMdLd6CACnfMs5jQu5HRjH97pt28_XKIg&amp;aq=t&amp;sll=58.096388,7.739182&amp;sspn=0.190878,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.185185,8.017273&amp;spn=0.695014,1.757813&amp;z=9" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -328,7 +328,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR man-krs PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=Markens+gate,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFeg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA&amp;aq=0&amp;oq=markens&amp;sll=58.184887,8.017692&amp;sspn=0.380807,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.090219,7.728882&amp;spn=0.348432,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=Markens+gate,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFeg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA&amp;aq=0&amp;oq=markens&amp;sll=58.184887,8.017692&amp;sspn=0.380807,1.215363&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.090219,7.728882&amp;spn=0.348432,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -343,7 +343,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR man-ven PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=Tor&amp;sll=58.12217,7.90445&amp;sspn=0.102079,0.303841&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.149068,7.717203&amp;spn=0.24148,0.517811&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=Tor&amp;sll=58.12217,7.90445&amp;sspn=0.102079,0.303841&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.149068,7.717203&amp;spn=0.24148,0.517811" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -358,7 +358,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR man-sog PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=Tangvall+S%C3%B8gne&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=&amp;sll=58.149068,7.717203&amp;sspn=0.408005,1.215363&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.066534,7.637743&amp;spn=0.076411,0.358892&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Store+Elvegate,+Mandal,+Norway&amp;daddr=Tangvall+S%C3%B8gne&amp;hl=en&amp;geocode=FTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=&amp;sll=58.149068,7.717203&amp;sspn=0.408005,1.215363&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.066534,7.637743&amp;spn=0.076411,0.358892" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -373,7 +373,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR ven-uik PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=uia&amp;sll=58.206535,7.99324&amp;sspn=0.190289,0.607681&amp;t=m&amp;hl=en&amp;mra=ltm&amp;ie=UTF8&amp;ll=58.206535,7.99324&amp;spn=0.112799,0.081679&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=uia&amp;sll=58.206535,7.99324&amp;sspn=0.190289,0.607681&amp;t=m&amp;hl=en&amp;mra=ltm&amp;ie=UTF8&amp;ll=58.206535,7.99324&amp;spn=0.112799,0.081679" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -388,7 +388,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR ven-uig PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=University+of+Agder+Jon+Lilletuns+vei&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFTAdegMdLd6CACFN40m3zMeMRCkXyFBYQu5HRjFN40m3zMeMRA&amp;aq=1&amp;oq=torsby&amp;sll=58.248723,8.253798&amp;sspn=0.380125,1.215363&amp;t=m&amp;hl=en&amp;mra=prev&amp;ie=UTF8&amp;ll=58.248723,8.253798&amp;spn=0.380125,1.215363&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=University+of+Agder+Jon+Lilletuns+vei&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFTAdegMdLd6CACFN40m3zMeMRCkXyFBYQu5HRjFN40m3zMeMRA&amp;aq=1&amp;oq=torsby&amp;sll=58.248723,8.253798&amp;sspn=0.380125,1.215363&amp;t=m&amp;hl=en&amp;mra=prev&amp;ie=UTF8&amp;ll=58.248723,8.253798&amp;spn=0.380125,1.215363" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -403,7 +403,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR ven-krs PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=Markens+gate,+Kristiansand,+Norway&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFeg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA&amp;aq=0&amp;oq=markens&amp;sll=58.14908,7.717192&amp;sspn=0.381195,1.215363&amp;t=m&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=58.207276,7.965545&amp;spn=0.125064,0.070074&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=Markens+gate,+Kristiansand,+Norway&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFeg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA&amp;aq=0&amp;oq=markens&amp;sll=58.14908,7.717192&amp;sspn=0.381195,1.215363&amp;t=m&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=58.207276,7.965545&amp;spn=0.125064,0.070074" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -418,7 +418,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR ven-man PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+el&amp;sll=58.213408,7.971268&amp;sspn=0.190252,0.607681&amp;t=m&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=58.14908,7.717192&amp;spn=0.241456,0.517831&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+el&amp;sll=58.213408,7.971268&amp;sspn=0.190252,0.607681&amp;t=m&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=58.14908,7.717192&amp;spn=0.241456,0.517831" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -433,7 +433,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR ven-sog PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=Tangvall,+S%C3%B8gne,+Norway&amp;hl=en&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=0&amp;oq=Tangvall+s%C3%B8gne&amp;sll=58.06108,7.538853&amp;sspn=0.047767,0.15192&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.183013,7.89505&amp;spn=0.347525,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Torsbyvegen,+Vennesla,+Norway&amp;daddr=Tangvall,+S%C3%B8gne,+Norway&amp;hl=en&amp;geocode=FZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q%3BFRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg&amp;aq=0&amp;oq=Tangvall+s%C3%B8gne&amp;sll=58.06108,7.538853&amp;sspn=0.047767,0.15192&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.183013,7.89505&amp;spn=0.347525,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -448,7 +448,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR sog-uik PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=Uia&amp;sll=58.183342,7.895131&amp;sspn=0.190413,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.133565,7.915306&amp;spn=0.087002,0.219727&amp;z=12&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=University+of+Agder,+Kristiansand,+Norway&amp;hl=en&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFXqBdwMdfh96ACFS4kYnqS4Y7ymTrJWFUwI4RjFS4kYnqS4Y7w&amp;aq=0&amp;oq=Uia&amp;sll=58.183342,7.895131&amp;sspn=0.190413,0.607681&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=58.133565,7.915306&amp;spn=0.087002,0.219727&amp;z=12" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -463,7 +463,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR sog-uig PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=University+of+Agder+Jon+Lilletuns+vei&amp;hl=en&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFTAdegMdLd6CACFN40m3zMeMRCkXyFBYQu5HRjFN40m3zMeMRA&amp;aq=t&amp;sll=58.250741,8.290359&amp;sspn=0.190052,0.607681&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.219161,8.195835&amp;spn=0.244569,0.762505&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=University+of+Agder+Jon+Lilletuns+vei&amp;hl=en&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFTAdegMdLd6CACFN40m3zMeMRCkXyFBYQu5HRjFN40m3zMeMRA&amp;aq=t&amp;sll=58.250741,8.290359&amp;sspn=0.190052,0.607681&amp;t=m&amp;mra=ls&amp;ie=UTF8&amp;ll=58.219161,8.195835&amp;spn=0.244569,0.762505" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -478,7 +478,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR sog-krs PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=Markens+gate,+Kristiansand,+Norway&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFeg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA&amp;aq=0&amp;oq=Markens&amp;sll=58.219161,8.195835&amp;sspn=0.380443,1.215363&amp;t=m&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=58.124202,7.90629&amp;spn=0.05465,0.183415&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=Markens+gate,+Kristiansand,+Norway&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFeg3dwMde_15ACn1skoXXgI4RjEsgAcRW5R5yA&amp;aq=0&amp;oq=Markens&amp;sll=58.219161,8.195835&amp;sspn=0.380443,1.215363&amp;t=m&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=58.124202,7.90629&amp;spn=0.05465,0.183415" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -493,7 +493,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR sog-man PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+el&amp;sll=58.124202,7.90629&amp;sspn=0.095365,0.303841&amp;t=m&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=58.066546,7.637733&amp;spn=0.076387,0.358913&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=Store+Elvegate,+Mandal,+Norway&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFTRxdQMd-c1xAClBBcfSkY43RjGOBR8C5JptpQ&amp;aq=0&amp;oq=store+el&amp;sll=58.124202,7.90629&amp;sspn=0.095365,0.303841&amp;t=m&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=58.066546,7.637733&amp;spn=0.076387,0.358913" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
@@ -508,7 +508,7 @@ function rutedata($parameter)
 
 				case 'viskart':		//Vis HTML kart
 					?>
-					SETT INN KART FOR sog-ven PÅ DENNE LINJEN
+					<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=Tangvall+s%C3%B8gne&amp;sll=58.183342,7.895131&amp;sspn=0.190413,0.607681&amp;mra=prev&amp;ie=UTF8&amp;t=m&amp;ll=58.183013,7.89505&amp;spn=0.347525,0.878906&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Tangvall,+S%C3%B8gne,+Norway&amp;daddr=Torsbyvegen,+Vennesla,+Norway&amp;hl=en&amp;geocode=FRl9dgMdmD13ACn9RYM-W_Y3RjGlJpHp_aoFhg%3BFZYgeQMdiaB5ACkvApFSLgU4RjHIR8i6YbLu9Q&amp;aq=0&amp;oq=Tangvall+s%C3%B8gne&amp;sll=58.183342,7.895131&amp;sspn=0.190413,0.607681&amp;mra=prev&amp;ie=UTF8&amp;t=m&amp;ll=58.183013,7.89505&amp;spn=0.347525,0.878906&amp;z=10" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 					<?php
 					break;
 			}
