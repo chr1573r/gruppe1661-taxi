@@ -60,11 +60,11 @@ function SkrivUtResultat()
 	{
 	global $takst, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris, $reisetid_tekst;
 	// Skriv ut resultat
-	echo "Billigste pris: $billigstepris,- ($billigsteselskap)<br><br>";
+	echo "<p id=\"utdata_billigste\">Billigste pris: $billigstepris,- ($billigsteselskap)</p><br><br>";
 
-	echo "Dyreste pris: $dyrestepris,- ($dyresteselskap)<br><br>";
-	echo "Reisetid: $reisetid_tekst<br>";
-	echo "(Takst:$takst)<br>";
+	echo "<p id=\"utdata_dyreste\">Dyreste pris: $dyrestepris,- ($dyresteselskap)</p><br><br>";
+	echo "<p id=\"utdata_reisetid\">Reisetid: $reisetid_tekst</p><br>";
+	echo "<p id=\"utdata_takst\">(Takst:$takst)<br></p>";
 	}
 
 
@@ -78,8 +78,8 @@ if ( identifiserRute() != "feil" ) // Identifiser ruten som er valg i input form
 	}
 else
 	{
-		echo "Fra og til kan ikke være samme sted!<br>";
-		echo "Velg på nytt.<br>";
+		echo "<p id=\"utdata_feil\">Fra og til kan ikke være samme sted!</p><br>";
+		echo "<p id=\"utdata_feil\">Velg på nytt.</p><br>";
 	}
 return $rutekode;
 

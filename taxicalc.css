@@ -14,6 +14,9 @@ body {
 	background-color: #292929;
 }
 
+#utdata_billigste {
+	font-style: strong;
+}
 
 #takstinfo {
 text-size: 0.3em;
