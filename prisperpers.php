@@ -2,7 +2,7 @@
 <?php
 $pris=$_POST['pris_taxi']; 
 $kode =$_POST['kode']
-$produkt= $pris/$kode;
+$produkt= ($pris/$kode);
 
 if ( $kode == "2" )
 {
