@@ -1,5 +1,6 @@
-#takstinfo {
-text-size: 0.3em;
+
+* {
+	width: 1000px;
 }
 h1 {
 	color: #FEC500;
@@ -11,7 +12,10 @@ body {
 	color:white;
 	font-size: 105%;
 	background-color: #292929;
-	width: 1000px;
+}
+
+#takstinfo {
+text-size: 0.3em;
 }
 
 #meny_ul
