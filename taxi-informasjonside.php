@@ -14,7 +14,7 @@
 
 <head>
 
-Her har vi samlet informasjon om de ulike taxiselskapene i Kristiansand
+<h2>Her har vi samlet informasjon om de ulike taxiselskapene i Kristiansand</h2>
 
 <br>
 <br>
