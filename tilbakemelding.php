@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="taxicalc.css">
 </head>
 <body>
+	<div align="center">
 <?php include("header.php");?>
 
 <div align="center">
