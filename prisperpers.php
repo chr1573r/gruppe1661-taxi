@@ -2,7 +2,7 @@
 <?php
 $pris=$_POST['pris']; 
 $antall =$_POST['antall'];
-$op = $_POST['op'];
+
 
 if ( $antall == "2" ) 
 {
