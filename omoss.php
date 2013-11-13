@@ -9,7 +9,7 @@
 <?php include("header.php");?>
 <br>
 
-<h2> OM OSS: </h2>
+<h2> Om oss: </h2>
 <img src="img/gruppe1661_mnavn_png.png" alt="gruppebilde">
 <br>
 <br>
