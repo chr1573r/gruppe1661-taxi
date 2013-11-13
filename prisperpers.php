@@ -16,7 +16,7 @@ echo "$pris/$antall= ";
 echo $pris/$antall;
 }
 
-if ( $antall == "4 ) 
+if ( $antall == "4" ) 
 {
 echo "$pris/$antall= ";
 echo $pris/$antall;
