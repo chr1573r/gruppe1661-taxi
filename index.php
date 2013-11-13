@@ -11,9 +11,9 @@
 
 <br>
 
-
-<div align="left">
 <h2>Velg ønsket reise og destinasjon.</h2>
+<div align="left">
+
 <form action="index.php" method="post">
 Fra:
 <select name="fra">
