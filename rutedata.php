@@ -293,7 +293,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR man-uik HER
+					$antall_km = 44.8;
+					$reisetid_min = 42;
+					$reisetid_tekst = "0t 42min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -308,7 +310,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR man-uig HER
+					$antall_km = 86.6;
+					$reisetid_min = 68;
+					$reisetid_tekst = "1t 8min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -323,7 +327,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR man-krs HER
+					$antall_km = 41.7;
+					$reisetid_min = 40;
+					$reisetid_tekst = "0t 40min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -338,7 +344,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR man-ven HER
+					$antall_km = 52.5;
+					$reisetid_min = 54;
+					$reisetid_tekst = "0t 54min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -353,7 +361,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR man-sog HER
+					$antall_km = 27.4;
+					$reisetid_min = 25;
+					$reisetid_tekst = "0t 25min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -368,7 +378,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR ven-uik HER
+					$antall_km = 16.9;
+					$reisetid_min = 20;
+					$reisetid_tekst = "0t 20min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -383,7 +395,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR ven-uig HER
+					$antall_km = 59,7;
+					$reisetid_min = 48;
+					$reisetid_tekst = "0t 48min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -398,7 +412,10 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR ven-krs HER
+					$antall_km = 17.7;
+					$reisetid_min = 21;
+					$reisetid_tekst = "0t 21min";
+
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -413,7 +430,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR ven-man HER
+					$antall_km = 52.5;
+					$reisetid_min = 54;
+					$reisetid_tekst = "0t 54min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -428,7 +447,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR ven-sog HER
+					$antall_km = 26.1;
+					$reisetid_min = 32;
+					$reisetid_tekst = "0t 32min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -443,7 +464,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR sog-uik HER
+					$antall_km = 18.3;
+					$reisetid_min = 19;
+					$reisetid_tekst = "0t 19min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -458,7 +481,10 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR sog-uig HER
+					$antall_km = 60.1;
+					$reisetid_min = 46;
+					$reisetid_tekst = "0t 46min";
+
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -473,7 +499,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR sog-krs HER
+					$antall_km = 15.3;
+					$reisetid_min = 17;
+					$reisetid_tekst = "0t 17min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -488,7 +516,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR sog-man HER
+					$antall_km = 27.4;
+					$reisetid_min = 25;
+					$reisetid_tekst = "0t 25min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
@@ -503,7 +533,9 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					//SETT INN VARIABLER FOR sog-ven HER
+					$antall_km = 26.1;
+					$reisetid_min = 32;
+					$reisetid_tekst = "0t 32min";
 					break;
 
 				case 'viskart':		//Vis HTML kart
