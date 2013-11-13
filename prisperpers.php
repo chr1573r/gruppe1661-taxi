@@ -1,7 +1,7 @@
 
 <?php
 $pris=$_POST['pris_taxi']; 
-$kode =$_POST['kode'];
+$kode =$_POST['Antall personer'];
 
 
 if ( $kode == "2" )

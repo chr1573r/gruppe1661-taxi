@@ -65,10 +65,10 @@ søndag 06:00-06:00</span><br>
 Taxi pris:<input type="text" name="pris_taxi"> 
 
 <select name="Antall personer">
-	<option name="kode" value="2">2 personer</option>
-	<option name="kode" value="3">3 personer</option>
-	<option name="kode" value="4">4 personer</option>
-	<option name="kode" value="5">5 personer</option>
+	<option name="Antall personer" value="2">2 personer</option>
+	<option name="Antall personer" value="3">3 personer</option>
+	<option name="Antall personer" value="4">4 personer</option>
+	<option name="Antall personer" value="5">5 personer</option>
 	</select>
 <br>
 
