@@ -395,7 +395,7 @@ function rutedata($parameter)
 
 			switch ("$parameter") {
 				case 'hentinfo':	//Sett variabler for reisen
-					$antall_km = 59,7;
+					$antall_km = 59.7;
 					$reisetid_min = 48;
 					$reisetid_tekst = "0t 48min";
 					break;
