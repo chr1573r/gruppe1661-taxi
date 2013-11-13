@@ -3,8 +3,6 @@
 $pris=$_POST['pris_taxi']; 
 $kode =$_POST['kode']
 $produkt= $pris/$kode;
-while ($antall<=10);
-
 
 if ( $kode == "2" )
 {
