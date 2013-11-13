@@ -46,7 +46,7 @@ if (isset($_POST['beregnpriser']))
 ?>
 
 <br>
-<p>Velg tidspunkt:</p>
+<h2>Velg tidspunkt:</h2>
 
 
 <input type="radio" name="takst" value="dag" checked="checked">Dag <span id="takstinfo"> man-fre 06:00-20:00</span><br>
@@ -72,7 +72,7 @@ Taxi pris:<input type="text" name="pris_taxi">
 	</select>
 <br>
 
-<input type="submit" name="Pris" value="Pris pr. peroner">
+<input type="submit" name="Pris" value="Pris pr. personer">
 <?php
 if (isset($_POST['Pris']))
 {
