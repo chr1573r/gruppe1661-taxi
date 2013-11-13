@@ -1,5 +1,6 @@
 <html>
 <head>
+	<div align="center">
 	<meta charset="UTF-8" />
 	<title>TaxiCalc</title>
 	<link rel="stylesheet" type="text/css" href="taxicalc.css">
@@ -7,13 +8,13 @@
 <body>
 <?php include("header.php");?>
 
-<div align="left">
+<div align="center">
 
 <h1> Skriv en tilbakemelding på TaxiCalc sin Facebookside! </h1>	
 
 <br>
 <br>
-<div align="left">
+<div align="center">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
