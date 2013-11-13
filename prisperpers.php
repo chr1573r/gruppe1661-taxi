@@ -1,28 +1,31 @@
 
 <?php
-$pris=$_POST['pris_taxi']; 
-$kode =$_POST['Antall personer'];
+$pris=$_POST['pris']; 
+$antall =$_POST['antall'];
+$op = $_POST['op'];
 
+if ( $antall == "2" ) 
+{
+echo "$pris/$antall= ";
+echo $pris/$antall;
+}
 
-if ( $kode == "2" )
+if ( $antall == "3" ) 
 {
-echo ($pris/$kode);
-echo "pris_pr.person";
+echo "$pris/$antall= ";
+echo $pris/$antall;
 }
-if ( $kode == "3" )
+
+if ( $antall == "4 ) 
 {
-echo "$produkt= ($pris/$kode)";
-echo "pris_pr.person";
+echo "$pris/$antall= ";
+echo $pris/$antall;
 }
-if ( $kode == "4" )
-{
-echo "$produkt= ($pris/$kode)";
-echo "pris_pr.person";
-}
-if ( $kode == "5" )
-{
-echo "$produkt= ($pris/$kode)";
-echo "pris_pr.person";
+
+if ( $antall == "5" ) 
+{ 
+echo "$pris/$antall= ";
+echo $pris/$antall;
 }
 
 ?>
