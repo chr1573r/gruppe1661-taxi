@@ -1,4 +1,6 @@
+
 <!-- Denne filen inneholder bare navigasjonsmenyen -->
+<div align="center">
 	<img src="img/PNG/Header.png" />
 	<img src="img/PNG/Menu.png" />
 <ul id="meny_ul">
