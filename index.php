@@ -24,7 +24,7 @@ Fra:
 	<option value="ven">Vennesla sentrum</option>
 	<option value="sog">Søgne sentrum</option>
 </select>
-
+<br>
 Til:
 <select name="til">
 	<option value="krs">Kristiansand sentrum</option>
@@ -36,9 +36,6 @@ Til:
 </select>
 <br>
 
-<br>
-
-<br>
 <h2>2. Velg tidspunkt:</h2>
 
 
