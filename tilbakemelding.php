@@ -35,9 +35,9 @@
 <br>
 
 <div align="left">
-<div class="fb-comments" data-href="http://www.facebook.com/pages/Taxicalc/325718240901463" data-colorscheme="light" data-numposts="20" data-width="600"></div>
+<div class="fb-comments" data-href="http://www.facebook.com/pages/Taxicalc/325718240901463" data-colorscheme="dark" data-numposts="20" data-width="600"></div>
 <br>
-<div class="fb-like-box" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-width="600" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+<div class="fb-like-box" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-width="600" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
 <br>
 
 
