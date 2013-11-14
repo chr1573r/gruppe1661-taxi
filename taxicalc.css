@@ -29,16 +29,18 @@ body {
 font-size: 0.7em;
 }
 
+div {
+	display: inline-block;
+}
+
 .reisekalkulator {
 	height: 800px;
 	width: 350px;
 	background-color: #191918;
-	display: inline-block;
 
 }
 
 #kart {
-	display: inline-block;
 }
 
 
