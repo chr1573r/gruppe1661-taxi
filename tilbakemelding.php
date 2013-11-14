@@ -14,7 +14,6 @@
 <h1> Skriv en tilbakemelding på TaxiCalc sin Facebookside! </h1>	
 
 <br>
-<br>
 <div align="left">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
