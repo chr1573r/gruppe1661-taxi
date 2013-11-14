@@ -34,10 +34,13 @@ font-size: 0.7em;
 	width: 350px;
 	background-color: #191918;
 	float: left;
+	clear: bottom;
 
 }
 
 #kart {
+	width: 640px;
+	height: 480px;
 	float: right;
 	clear: bottom;
 }
