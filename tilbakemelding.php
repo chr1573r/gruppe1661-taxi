@@ -27,9 +27,10 @@
 
 
 <div class="fb-comments" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-colorscheme="dark" data-numposts="20" data-width="600"></div>
+<br>
+<br>
 
-
-<script type="text/javascript" src="http://www.yr.no/sted/Norge/Møre_og_Romsdal/Kristiansund/Kristiansund_lufthavn,_Kvernberget/ekstern_boks_liten.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Møre_og_Romsdal/Kristiansund/Kristiansund_lufthavn,_Kvernberget/">yr.no: Værvarsel for Kristiansund lufthavn, Kvernberget</a></noscript>
+<script type="text/javascript" src="http://www.yr.no/sted/Norge/vest_agder/Kristiansand/ekstern_boks_liten.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Møre_og_Romsdal/Kristiansund/Kristiansund_lufthavn,_Kvernberget/">yr.no: Værvarsel for Kristiansund lufthavn, Kvernberget</a></noscript>
 
 </body>
 
