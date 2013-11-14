@@ -7,7 +7,6 @@
 
 <body>
 <?php include("header.php");?>
-<br>
 
 <h2> Om oss: </h2>
 <a href="https://www.facebook.com/pages/Taxicalc/325718240901463?fref=ts"><img src="img/gruppe1661_mnavn_png.png" /></a>
