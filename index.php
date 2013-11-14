@@ -9,7 +9,7 @@
 <body>
 <?php include("header.php");?>
 
-<div class="reisekalkulator" align="left">
+<div class="reisekalkulator">
 <h2>1. Velg ønsket reise og destinasjon.</h2>
 
 <form action="index.php" method="post">
@@ -72,7 +72,7 @@ søndag 06.00-06.00
 </p>
 </div>
 
-<div id="kart" align="right">
+<div id="kart">
 
 <?php
 if (isset($_POST['beregnpriser']))
