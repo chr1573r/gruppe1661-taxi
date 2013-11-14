@@ -3,7 +3,7 @@
 	
 <hr>
 <div align="center">
-<h1> © Gruppe 1661 - År 2013 </h1>
+<h1> Copyright © 2013 Gruppe 1661 </h1>
 		</div>
 			<div align="center">
 		<div id="fb-root"></div>
