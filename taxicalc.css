@@ -32,6 +32,8 @@ font-size: 0.7em;
 .reisekalkulator {
 	height: 800px;
 	width: 350px;
+	padding: 2px 2px 2px 2px;
+	margin: 2px 2px 2px 2px;
 	background-color: #181918;
 	float: left;
 	clear: bottom;
