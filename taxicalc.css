@@ -32,16 +32,17 @@ font-size: 0.7em;
 .reisekalkulator {
 	height: 800px;
 	width: 350px;
-	background-color: #191918;
+	background-color: #181918;
 	float: left;
 	clear: bottom;
 
 }
 
 #kart {
-	width: 640px;
+	width: 642px;
 	height: 480px;
 	float: right;
+	background-color: #181918; 
 	clear: bottom;
 }
 
