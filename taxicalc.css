@@ -29,6 +29,10 @@ body {
 font-size: 0.7em;
 }
 
+#kart {
+	float:right;
+}
+
 
 #meny_ul
 {
