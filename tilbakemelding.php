@@ -15,7 +15,7 @@
 
 <br>
 <br>
-<div align="center">
+<div align="left">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -30,6 +30,7 @@
 <br>
 <br>
 
+<div align="left">
 <script type="text/javascript" src="http://www.yr.no/sted/Norge/vest_agder/Kristiansand/ekstern_boks_liten.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Møre_og_Romsdal/Kristiansund/Kristiansund_lufthavn,_Kvernberget/">yr.no: Værvarsel for Kristiansand</a></noscript>
 
 </body>
