@@ -38,6 +38,7 @@ font-size: 0.7em;
 }
 
 #kart {
+	display: inline-block;
 	float:right;
 	clear: both;
 }
