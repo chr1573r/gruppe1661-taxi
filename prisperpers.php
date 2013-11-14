@@ -1,8 +1,8 @@
  <?php
- $pris=$_POST['pris_taxi']; 
+ //$pris=$_POST['pris_taxi']; 
  $antall=$_POST['antall_personer'];
- $produkt= $pris/$antall;
+ $produkt= $billigstepris/$antall;
  
- echo "$produkt=($pris/$antall)"; 
+ echo "$produkt=($billigstepris/$antall)"; 
  echo "pris pr.person";
  ?> 

@@ -53,19 +53,12 @@ if (isset($_POST['beregnpriser']))
 </span><br>
 <br>
 
-
-
-
-
-Taxi pris:<input type="text" name="pris_taxi"> 
-
 Antall personer:<input type="text" name="antall_personer">
 <br>
 <input type="submit" name="beregnpriser" value="Beregn priser">
 
-<input type="submit" name="Pris" value="Pris pr. personer">
 <?php
-if (isset($_POST['Pris']))
+if (isset($_POST['antall_personer']))
 {
    include("prisperpers.php");
 }
@@ -74,7 +67,12 @@ if (isset($_POST['Pris']))
 </form>
 
 
- 
+ <p id="takstinfo">
+* man-fre 06.00-20.00 <br><br>
+** man-fre 20.00-24.00 <br>
+lørdag 06.00-18.00 <br>
+søndag 06.00-06.00
+</p>
 	
 <div align="center">
 
@@ -85,12 +83,7 @@ if (isset($_POST['beregnpriser']))
 }
 ?>
 
-<p id="takstinfo">
-* man-fre 06.00-20.00 <br><br>
-** man-fre 20.00-24.00 <br>
-lørdag 06.00-18.00 <br>
-søndag 06.00-06.00
-</p>
+
 
 </div>
 </body>
