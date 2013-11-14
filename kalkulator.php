@@ -42,14 +42,14 @@ function RegnUt()
 	{
 
 		$billigsteselskap = "Agder Taxi";
-		$billigstepris = $pris_agder;
+		$billigstepris = round($pris_agder);
 		$dyresteselskap = "Taxi Sør";
 		$dyrestepris = $pris_sor;
 	}
 	else // Hvis Taxi sør er billigst:
 	{
 		$billigsteselskap = "Taxi Sør";
-		$billigstepris = $pris_sor;
+		$billigstepris = round($pris_sor);
 		$dyresteselskap = "Agder Taxi";
 		$dyrestepris = $pris_agder;
 	}
@@ -60,11 +60,17 @@ function SkrivUtResultat()
 	{
 	global $takst, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris, $reisetid_tekst;
 	// Skriv ut resultat
-	echo "<p id=\"utdata_billigste\">Billigste pris: $billigstepris,- ($billigsteselskap)</p>";
-
-	echo "<p id=\"utdata_dyreste\">Dyreste pris: $dyrestepris,- ($dyresteselskap)</p>";
-	echo "<p id=\"utdata_reisetid\">Reisetid: $reisetid_tekst</p>";
-	echo "<p id=\"utdata_takst\">(Takst:$takst)</p>";
+	echo "<span id=\"utdata_header\">Billigste alternativ:</span><br>";
+	echo "<span id=\"utdata_billigste\">Taxioperatør: $billigsteselskap</span><br>";
+	echo "<span id=\"utdata_reisetid\">Reisetid: $reisetid_tekst</span><br>";
+	?>
+	<div align="right">
+	<?php
+	echo "Totalt: <span id=\"utdata_sum\">$billigstepris,-<br></span>";
+	?>
+	</div>
+	<?php
+	//echo "<span id=\"utdata_dyreste\">Dyreste pris: $dyrestepris,- ($dyresteselskap)</span><br>";
 	}
 
 
@@ -75,6 +81,7 @@ if ( identifiserRute() != "feil" ) // Identifiser ruten som er valg i input form
 		rutedata("hentinfo");
 		RegnUt();
 		SkrivUtResultat();
+		include ("prisperpers.php");
 	}
 else
 	{

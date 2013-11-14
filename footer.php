@@ -1,11 +1,8 @@
 <!-- Denne filen inneholder bare footer -->
-
-	
+<div id="footer" align="center">
 <hr>
-<div align="center">
 <h1> Copyright © 2013 Gruppe 1661 </h1>
-		</div>
-			<div align="center">
+		
 		<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -16,3 +13,4 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="fb-like" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+</div>

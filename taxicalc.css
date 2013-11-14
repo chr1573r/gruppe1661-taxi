@@ -19,35 +19,65 @@ body {
 }
 
 #innhold {
-	width: 992px;
+	width: 991px;
+	height: 900px;
+}
+
+
+#utdata_header {
+	font-size: 20px
+}
+
+#utdata_sum {
+	font-size: 24pt;
 }
 #utdata_billigste {
-	font-style: strong;
+	font-size: 14px;
+}
+
+#utdata_reisetid {
+	font-size: 14px;
 }
 
 #takstinfo {
-font-size: 0.7em;
+font-size: 12px;
+color: silver;
 }
 
 .reisekalkulator {
-	height: 800px;
-	width: 350px;
-	padding: 2px 2px 2px 2px;
-	margin: 2px 2px 2px 2px;
-	background-color: #181918;
 	float: left;
+	width: 330px;
+	height: 620px;
+	border-radius: 2px;
+	padding: 2px 2px 2px 10px;
+	background-color: #191918;
 	clear: bottom;
 
+}
+
+#beregnknapp {
+	/*color: white; */
+	/*background-color: green; */
+	width: 100px;
+	height: 40px;
+	/* border-radius: 1px; */
+	/* border: 1px solid white; */
+	font-size: 16px;
 }
 
 #kart {
-	width: 642px;
-	height: 480px;
 	float: right;
-	background-color: #181918; 
+	width: 640px;
+	height: 620px;
+	border-radius: 2px;
+	padding: 2px 2px 2px 2px;
+	/* background-color: #191918; */
 	clear: bottom;
 }
 
+#footer {
+	width: 992px;
+}
 
 #meny_ul
 {

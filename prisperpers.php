@@ -1,8 +1,16 @@
  <?php
  //$pris=$_POST['pris_taxi']; 
  $antall=$_POST['antall_personer'];
- $produkt= $billigstepris/$antall;
+ $produkt=round($billigstepris/$antall);
  
- echo "$produkt=($billigstepris/$antall)"; 
- echo "pris pr.person";
+if ($antall > 1)
+{
+?>
+<div align="right">
+<?php
+echo "($produkt kr per person)"; 
+?>
+</div>
+<?php
+}
  ?> 

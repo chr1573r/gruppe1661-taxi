@@ -10,7 +10,8 @@
 <?php include("header.php");?>
 
 <div class="reisekalkulator">
-<h2>1. Velg ønsket reise og destinasjon.</h2>
+<h1>Reisekalkulator</h1>
+<h2>1. Velg ønsket reise og destinasjon:</h2>
 
 <form action="index.php" method="post">
 Fra:
@@ -34,39 +35,47 @@ Til:
 </select>
 <br>
 
-<h2>2. Velg tidspunkt:</h2>
+<h2>2. Velg tidspunkt*:</h2>
 
 
-<input type="radio" name="takst" value="dag" checked="checked">Dag* <span id="takstinfo"></span><br>
-<input type="radio" name="takst" value="kveld">Kveld/Helg**<span id="takstinfo"><br><br><br>
-</span><br>
+<input type="radio" name="takst" value="dag" checked="checked">Dag<br>
+<input type="radio" name="takst" value="kveld">Kveld/Helg<br>
+
+<h2>3. Antall reisende:</h2>
+
+<select name="antall_personer">
+	<option value="1">1 person</option>
+	<option value="2">2 personer</option>
+	<option value="3">3 personer</option>
+	<option value="4">4 personer</option>
+
+</select>
+
 <br>
-
-Antall personer:<input type="text" name="antall_personer">
 <br>
-<input type="submit" name="beregnpriser" value="Beregn priser">
+<input id="beregnknapp" type="submit" name="beregnpriser" value="Beregn priser">
+<hr>
 
 <?php
 if (isset($_POST['beregnpriser']))
 {
    include("kalkulator.php");
+   ?>
+   <hr>
+   <?php
 }
 ?>
 
-
-<?php
-if (isset($_POST['antall_personer']))
-{
-   include("prisperpers.php");
-}
-?>
 
 </form>
 
 
  <p id="takstinfo">
-* man-fre 06.00-20.00 <br><br>
-** man-fre 20.00-24.00 <br>
+* Taxi operatørene har forskjellige takster utifra tid på døgnet:<br><br>
+Dag: man-fre 06.00-20.00 <br><br>
+
+Kveld/Helg:<br>
+man-fre 20.00-24.00 <br>
 lørdag 06.00-18.00 <br>
 søndag 06.00-06.00
 </p>
@@ -86,6 +95,6 @@ if (isset($_POST['beregnpriser']))
 
 </body>
 
-
+</div>
 <?php include("footer.php");?>
 </html>
