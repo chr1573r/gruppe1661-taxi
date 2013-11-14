@@ -57,15 +57,7 @@ if (isset($_POST['beregnpriser']))
    include("kalkulator.php");
 }
 ?>
-<div id="kart" align="right">
 
-<?php
-if (isset($_POST['beregnpriser']))
-{
-	rutedata("viskart");
-}
-?>
-</div>
 
 <?php
 if (isset($_POST['antall_personer']))
@@ -85,7 +77,15 @@ søndag 06.00-06.00
 </p>
 	
 
+<div id="kart" align="right">
 
+<?php
+if (isset($_POST['beregnpriser']))
+{
+	rutedata("viskart");
+}
+?>
+</div>
 
 
 </div>
