@@ -11,7 +11,7 @@
 
 <br>
 
-<h2>Velg ønsket reise og destinasjon.</h2>
+<h2>1. Velg ønsket reise og destinasjon.</h2>
 <div align="left">
 
 <form action="index.php" method="post">
@@ -46,7 +46,7 @@ if (isset($_POST['beregnpriser']))
 ?>
 
 <br>
-<h2>Velg tidspunkt:</h2>
+<h2>2. Velg tidspunkt:</h2>
 
 
 <input type="radio" name="takst" value="dag" checked="checked">Dag* <span id="takstinfo"></span><br>
