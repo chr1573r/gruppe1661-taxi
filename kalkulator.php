@@ -60,11 +60,11 @@ function SkrivUtResultat()
 	{
 	global $takst, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris, $reisetid_tekst;
 	// Skriv ut resultat
-	echo "<p id=\"utdata_billigste\">Billigste pris: $billigstepris,- ($billigsteselskap)</p><br><br>";
+	echo "<p id=\"utdata_billigste\">Billigste pris: $billigstepris,- ($billigsteselskap)</p>";
 
-	echo "<p id=\"utdata_dyreste\">Dyreste pris: $dyrestepris,- ($dyresteselskap)</p><br><br>";
-	echo "<p id=\"utdata_reisetid\">Reisetid: $reisetid_tekst</p><br>";
-	echo "<p id=\"utdata_takst\">(Takst:$takst)<br></p>";
+	echo "<p id=\"utdata_dyreste\">Dyreste pris: $dyrestepris,- ($dyresteselskap)</p>";
+	echo "<p id=\"utdata_reisetid\">Reisetid: $reisetid_tekst</p>";
+	echo "<p id=\"utdata_takst\">(Takst:$takst)</p>";
 	}
 
 
