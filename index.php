@@ -37,12 +37,6 @@ Til:
 <br>
 
 <br>
-<?php
-if (isset($_POST['beregnpriser']))
-{
-   include("kalkulator.php");
-}
-?>
 
 <br>
 <h2>2. Velg tidspunkt:</h2>
@@ -56,6 +50,13 @@ if (isset($_POST['beregnpriser']))
 Antall personer:<input type="text" name="antall_personer">
 <br>
 <input type="submit" name="beregnpriser" value="Beregn priser">
+
+<?php
+if (isset($_POST['beregnpriser']))
+{
+   include("kalkulator.php");
+}
+?>
 
 <?php
 if (isset($_POST['antall_personer']))
