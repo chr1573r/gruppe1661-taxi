@@ -11,9 +11,9 @@
 
 <br>
 
-<h2>1. Velg ønsket reise og destinasjon.</h2>
 
-<div align="left">
+<div class=".reisekalkulator" align="left">
+<h2>1. Velg ønsket reise og destinasjon.</h2>
 
 <form action="index.php" method="post">
 Fra:
