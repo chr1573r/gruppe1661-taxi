@@ -92,11 +92,12 @@ if (isset($_POST['beregnpriser']))
 }
 ?>
 
-
+<p id="takstinfo">
 * man-fre 06.00-20.00 <br><br>
 ** man-fre 20.00-24.00 <br>
 lørdag 06.00-18.00 <br>
 søndag 06.00-06.00
+</p>
 
 </div>
 </body>
