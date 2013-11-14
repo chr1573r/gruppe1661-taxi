@@ -30,7 +30,7 @@
 <br>
 <br>
 
-<script type="text/javascript" src="http://www.yr.no/sted/Norge/vest_agder/Kristiansand/ekstern_boks_liten.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Møre_og_Romsdal/Kristiansund/Kristiansund_lufthavn,_Kvernberget/">yr.no: Værvarsel for Kristiansund lufthavn, Kvernberget</a></noscript>
+<script type="text/javascript" src="http://www.yr.no/sted/Norge/vest_agder/Kristiansand/ekstern_boks_liten.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Møre_og_Romsdal/Kristiansund/Kristiansund_lufthavn,_Kvernberget/">yr.no: Værvarsel for Kristiansand</a></noscript>
 
 </body>
 
