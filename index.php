@@ -49,11 +49,9 @@ if (isset($_POST['beregnpriser']))
 <h2>Velg tidspunkt:</h2>
 
 
-<input type="radio" name="takst" value="dag" checked="checked">Dag <span id="takstinfo"> man-fre 06:00-20:00</span><br>
-<input type="radio" name="takst" value="kveld">Kveld/Natt/Helg<span id="takstinfo"><br><br><br>
-man-fre 20:00-24:00<br>
-lørdag 06:00-18:00<br>
-søndag 06:00-06:00</span><br>
+<input type="radio" name="takst" value="dag" checked="checked">Dag* <span id="takstinfo"></span><br>
+<input type="radio" name="takst" value="kveld">Kveld/Helg**<span id="takstinfo"><br><br><br>
+</span><br>
 <br>
 
 
@@ -94,6 +92,11 @@ if (isset($_POST['beregnpriser']))
 }
 ?>
 
+
+* man-fre 06.00-20.00 <br><br>
+** man-fre 20.00-24.00 <br>
+lørdag 06.00-18.00 <br>
+søndag 06.00-06.00
 
 </div>
 </body>
