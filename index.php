@@ -62,13 +62,8 @@ if (isset($_POST['beregnpriser']))
 
 Taxi pris:<input type="text" name="pris"> 
 
-<select name="antal">
-	<option name="Antall " value="2">2 personer</option>
-	<option name="Antall " value="3">3 personer</option>
-	<option name="Antall " value="4">4 personer</option>
-	<option name="Antall " value="5">5 personer</option>
-	</select>
-<br>
+Antall perosner:<input type="text" name="antall personer"> 
+
 
 <input type="submit" name="Pris" value="Pris pr. personer">
 <?php
