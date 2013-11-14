@@ -34,10 +34,10 @@ font-size: 0.7em;
 {
 list-style-type:none;
 padding:0;
-overflow:hidden;
+/* overflow:hidden; */
 width: 990px;
 height: 60px;
-background-color: #191918
+/* background-color: #191918 */
 
 }
 
