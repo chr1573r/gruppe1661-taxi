@@ -76,7 +76,7 @@ lørdag 06.00-18.00 <br>
 søndag 06.00-06.00
 </p>
 	
-<div align="center">
+<div id="kart" align="right">
 
 <?php
 if (isset($_POST['beregnpriser']))
@@ -84,6 +84,7 @@ if (isset($_POST['beregnpriser']))
 	rutedata("viskart");
 }
 ?>
+</div>
 
 
 
