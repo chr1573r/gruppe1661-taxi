@@ -11,7 +11,15 @@
 
 <br>
 
+<div id="kart" align="right">
 
+<?php
+if (isset($_POST['beregnpriser']))
+{
+	rutedata("viskart");
+}
+?>
+</div>
 <div class=".reisekalkulator" align="left">
 <h2>1. Velg ønsket reise og destinasjon.</h2>
 
@@ -76,15 +84,7 @@ lørdag 06.00-18.00 <br>
 søndag 06.00-06.00
 </p>
 	
-<div id="kart" align="right">
 
-<?php
-if (isset($_POST['beregnpriser']))
-{
-	rutedata("viskart");
-}
-?>
-</div>
 
 
 
