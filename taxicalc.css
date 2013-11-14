@@ -39,6 +39,7 @@ font-size: 0.7em;
 
 #kart {
 	float: right;
+	clear: bottom;
 }
 
 
