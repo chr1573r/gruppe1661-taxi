@@ -36,7 +36,6 @@ Til:
 </select>
 <br>
 
-<input type="submit" name="beregnpriser" value="Beregn priser">
 <br>
 <?php
 if (isset($_POST['beregnpriser']))
@@ -56,12 +55,13 @@ if (isset($_POST['beregnpriser']))
 
 
 
-<form action="index.php" method="post">
+
 
 Taxi pris:<input type="text" name="pris_taxi"> 
 
-Antall personer:<input type="text" name="antall_personer"> 
-
+Antall personer:<input type="text" name="antall_personer">
+<br>
+<input type="submit" name="beregnpriser" value="Beregn priser">
 
 <input type="submit" name="Pris" value="Pris pr. personer">
 <?php
