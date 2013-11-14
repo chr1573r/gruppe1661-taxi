@@ -12,6 +12,11 @@
 <br>
 
 <h2>1. Velg ønsket reise og destinasjon.</h2>
+
+<div>
+<p style="float:left; width:28%; background:#eee; color:black; border:1px solid #ccc; padding:10px"><script type="text/javascript" src="http://www.yr.no/sted/Norge/Vest-Agder/Kristiansand/Kristiansand/ekstern_boks_liten.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Vest-Agder/Kristiansand/Kristiansand/">yr.no: Værvarsel for Kristiansand</a></noscript></p>
+</div>
+
 <div align="left">
 
 <form action="index.php" method="post">

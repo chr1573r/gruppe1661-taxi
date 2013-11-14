@@ -15,7 +15,6 @@
 
 <br>
 <br>
-<div align="left">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -26,12 +25,12 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-<div class="fb-comments" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-colorscheme="dark" data-numposts="20" data-width="600"></div>
+<div class="fb-like-box" data-href="https://www.facebook.com/pages/Taxicalc/325718240901463" data-width="600" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
 <br>
 <br>
 
 <div align="left">
-<script type="text/javascript" src="http://www.yr.no/sted/Norge/Vest-Agder/Kristiansand/Kristiansand/ekstern_boks_liten.js"></script><noscript><a href="http://www.yr.no/sted/Norge/Møre_og_Romsdal/Kristiansund/Kristiansund_lufthavn,_Kvernberget/">yr.no: Værvarsel for Kristiansand</a></noscript>
+
 
 </body>
 
