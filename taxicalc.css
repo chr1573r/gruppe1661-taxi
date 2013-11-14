@@ -18,6 +18,9 @@ body {
 	background-color: #292929;
 }
 
+#innhold {
+	width: 1000px;
+}
 #utdata_billigste {
 	font-style: strong;
 }
