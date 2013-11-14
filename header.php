@@ -1,7 +1,7 @@
 <!-- Denne filen inneholder bare navigasjonsmenyen -->
 <div id="innhold">
 	<img src="img/PNG/Header.png" />
-	<img src="img/PNG/Menu.png" />
+	<!--<img src="img/PNG/Menu.png" />-->
 <ul align="center" id="meny_ul">
 <br>
 <li id="meny_li"><a id="meny_a" href="index.php">Forside</a></li>
