@@ -33,15 +33,13 @@ font-size: 0.7em;
 	height: 800px;
 	width: 350px;
 	background-color: #191918;
-	clear: top;
+	clear: bottom;
 	display: inline-block;
 
 }
 
 #kart {
 	display: inline-block;
-	float:right;
-	clear: both;
 }
 
 
