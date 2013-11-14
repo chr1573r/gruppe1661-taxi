@@ -1,15 +1,15 @@
 <html>
 <head>
-	<div align="center">
+	<div align="left">
 	<meta charset="UTF-8" />
 	<title>TaxiCalc</title>
 	<link rel="stylesheet" type="text/css" href="taxicalc.css">
 </head>
 <body>
-	<div align="center">
+	<div align="left">
 <?php include("header.php");?>
 
-<div align="center">
+<div align="left">
 
 <h1> Skriv en tilbakemelding på TaxiCalc sin Facebookside! </h1>	
 
