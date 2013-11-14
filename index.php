@@ -56,13 +56,11 @@ if (isset($_POST['beregnpriser']))
 
 
 
-<div align="left">
-
 <form action="index.php" method="post">
 
-Taxi pris:<input type="text" name="pris"> 
+Taxi pris:<input type="text" name="pris_taxi"> 
 
-Antall personer:<input type="text" name="antall personer"> 
+Antall personer:<input type="text" name="antall_personer"> 
 
 
 <input type="submit" name="Pris" value="Pris pr. personer">
