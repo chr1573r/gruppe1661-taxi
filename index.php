@@ -11,15 +11,6 @@
 
 <br>
 
-<div id="kart" align="right">
-
-<?php
-if (isset($_POST['beregnpriser']))
-{
-	rutedata("viskart");
-}
-?>
-</div>
 <div class=".reisekalkulator" align="left">
 <h2>1. Velg ønsket reise og destinasjon.</h2>
 
@@ -66,6 +57,15 @@ if (isset($_POST['beregnpriser']))
    include("kalkulator.php");
 }
 ?>
+<div id="kart" align="right">
+
+<?php
+if (isset($_POST['beregnpriser']))
+{
+	rutedata("viskart");
+}
+?>
+</div>
 
 <?php
 if (isset($_POST['antall_personer']))
