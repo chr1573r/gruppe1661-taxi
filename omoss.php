@@ -30,8 +30,8 @@ Funfact: Var gitarist i et "screamo"/metal band <br> <br>
 <h3> Christoffer Lien </h3>
 24 år <br>
 Fra Kristiansand <br>
-Hobby: film og tvserier, politikk
-Jobberfaringer: vært telefonselger i over 4 år, ellers diverse sommerjobber
+Hobby: film og tvserier, politikk <br>
+Jobberfaringer: vært telefonselger i over 4 år, ellers diverse sommerjobber <br>
 Funfact: Tror på spøkelser <br> <br>
 
 <h3> Kevin Chisholm </h3>
