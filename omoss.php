@@ -16,37 +16,37 @@
 <h3> Nadia Nabiyar </h3> 
 24 år <br>
 Fra Danmark <br>
-Funfact:Nei... <br> 
 Hobby:<br>
-Jobberfaringer:<br><br>
+Jobberfaringer:<br>
+Funfact:Nei... <br> <br>
 
 <h3> Christer Jonassen: </h3>
 23 år <br>
 Fra Stavanger <br>
-Funfact: Var gitarist i et "screamo"/metal band<br> 
 Hobby:<br>
-Jobberfaringer:<br><br>
+Jobberfaringer:<br>
+Funfact: Var gitarist i et "screamo"/metal band <br> <br>
 
 <h3> Christoffer Lien </h3>
 24 år <br>
 Fra Kristiansand <br>
-Funfact: Tror på spøkelser <br> 
 Hobby:<br>
-Jobberfaringer:<br><br>
+Jobberfaringer:<br>
+Funfact: Tror på spøkelser <br> <br>
 
 <h3> Kevin Chisholm </h3>
 23 år <br>
 Fra Bergen <br>
-Funfact: Har en morbid humor <br> 
 Hobby:<br>
-Jobberfaringer:<br><br>
+Jobberfaringer:<br>
+Funfact: Har en morbid humor <br> <br>
 
 <h3> Pål Sandnes </h3>
 21 år <br>
 Fra Risør <br>
-Funfact: Begynner å gråte hvis han taper 3 FIFA-kamper på rad
 Hobby:<br>
-Jobberfaringer:<br><br>
+Jobberfaringer:<br>
+Funfact: Begynner å gråte hvis han taper 3 FIFA-kamper på rad <br> <br>
 
 
 
