@@ -25,8 +25,8 @@ Funfact:Nei... <br> <br>
 <h3> Christer Jonassen: </h3>
 23 år <br>
 Fra Stavanger <br>
-Hobby:<br>
-Jobberfaringer:<br>
+Hobby: Data, spill, serier/film og frivillig arbeid<br>
+Jobberfaringer: IKT-Tekniker hos Rogaland fylkeskommune<br>
 Funfact: Var gitarist i et "screamo"/metal band <br> <br>
 
 <h3> Christoffer Lien </h3>
