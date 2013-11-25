@@ -3,7 +3,7 @@
 	<img src="img/PNG/Header.png" />
 <ul align="center" class="meny_ul">
 <?php
-$side="forside";
+global $side;
 echo "Valgt menyelement: $side";
 if ($side == "forside")
 	{ //Hvis side er forside:
