@@ -4,7 +4,8 @@
 <ul align="center" class="meny_ul">
 <?php
 $side="forside";
-if ($side="forside")
+echo "Valgt menyelement: $side"
+if ($side == "forside")
 	{ //Hvis side er forside:
 		?>
 		<li class="meny_li"><a class="meny_a" id="markert" href="index.php">Forside</a></li>
@@ -16,7 +17,7 @@ else
 		<li class="meny_li"><a class="meny_a" href="index.php">Forside</a></li>
 		<?
 	}
-if ($side="taxiinformasjon")
+if ($side == "taxiinformasjon")
 	{ //Hvis side er taxiinformasjon:
 		?>
 		<li class="meny_li"><a class="meny_a" id="markert" href="taxi-informasjonside.php">Taxi informasjon</a></li>
@@ -30,7 +31,7 @@ else
 		<?
 	}
 
-if ($side="omoss")
+if ($side == "omoss")
 	{ //Hvis side er om oss:
 		?>
 		<li class="meny_li"><a class="meny_a" id="markert" href="omoss.php">Om oss</a></li>
@@ -45,7 +46,7 @@ else
 	}
 
 
-if ($side="tilbakemelding")
+if ($side == "tilbakemelding")
 	{ //Hvis side er tilbakemelding:
 		?> 
 		<li class="meny_li"><a class="meny_a" id="markert" href="tilbakemelding.php">Tilbakemelding</a><li>
