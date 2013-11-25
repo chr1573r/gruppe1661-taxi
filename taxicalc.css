@@ -19,6 +19,7 @@ body {
 }
 
 #innhold {
+	float: center;
 	width: 991px;
 	height: 900px;
 }
@@ -80,7 +81,8 @@ color: silver;
 }
 
 #meny_ul
-{
+{	
+float: center;
 list-style-type:none;
 padding:0;
 /* overflow:hidden; */
