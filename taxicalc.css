@@ -1,5 +1,9 @@
 #markert {
-background-color: #BCA551;
+/* background-color: #BCA551; */
+border-top: 1px solid #BCA551;
+border-right: 1px solid #BCA551;
+border-bottom: 6px solid #BCA551;
+border-left: 1px solid #BCA551;
 color: black; 
 }
 *{
