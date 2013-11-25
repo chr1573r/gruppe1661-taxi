@@ -102,13 +102,13 @@ height: 60px;
 
 .meny_li
 {
-float:center;
+float:left;
 
 }
 
 .meny_a
 {
-float: center;
+
 display:block;
 width:150px;
 height: 20px;
@@ -117,7 +117,7 @@ background-color:#FEC500;
 color:black;
 padding:3px 10px;
 margin:3px 10px;
-float:left;
+float: center;
 clear:both;
 text-align:center;
 font-style: bold;
