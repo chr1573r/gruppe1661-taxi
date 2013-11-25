@@ -1,5 +1,6 @@
-markert {
-color: #BCA551;
+#markert {
+background-color: #BCA551;
+color: black; 
 }
 *{
 	/* border: 1px dashed gray */
@@ -83,7 +84,7 @@ color: silver;
 	width: 992px;
 }
 
-#meny_ul
+.meny_ul
 {	
 float: center;
 list-style-type:none;
@@ -95,13 +96,13 @@ height: 60px;
 
 }
 
-#meny_li
+.meny_li
 {
 float:left;
 
 }
 
-#meny_a
+.meny_a
 {
 display:block;
 width:150px;
