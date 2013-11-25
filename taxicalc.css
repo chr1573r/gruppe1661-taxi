@@ -1,8 +1,7 @@
 #markert {
 /* background-color: #BCA551; */
-
-border-bottom: 6px dashed white;
-background-color: #E5E2D3;
+/* background-color: #E5E2D3; */
+border-bottom: 6px white;
 color: black; 
 }
 *{
@@ -122,7 +121,7 @@ font-style: bold;
 /*
 border-top: 1px solid #191918;
 border-right: 1px solid #191918;
-border-bottom: 4px solid #191918;
+border-bottom: 6px solid #191918;
 border-left: 1px solid #191918;
  */
 
