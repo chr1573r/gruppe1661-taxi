@@ -44,8 +44,8 @@ Funfact: Har en morbid humor <br> <br>
 <h3> Pål Sandnes </h3>
 21 år <br>
 Fra Risør <br>
-Hobby:<br>
-Jobberfaringer:<br>
+Hobby: <br>
+Jobberfaringer: <br>
 Funfact: Begynner å gråte hvis han taper 3 FIFA-kamper på rad <br> <br>
 
 
