@@ -48,7 +48,7 @@ body {
 
 #takstinfo {
 font-size: 12px;
-color: silver;
+color: black;
 }
 
 .reisekalkulator {
@@ -57,9 +57,13 @@ color: silver;
 	height: 620px;
 	border-radius: 2px;
 	padding: 2px 4px 2px 8px;
-	background-color: #191918;
+	/* svartgrå background-color: #191918; */
+	background-color: #FEC500;
 	clear: bottom;
-
+	color: black;
+}
+.reisekalkulator h1 h2 {
+	color: black;
 }
 
 #beregnknapp {
