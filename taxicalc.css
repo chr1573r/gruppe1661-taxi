@@ -90,7 +90,6 @@ color: silver;
 
 .meny_ul
 {
-margin: 0 auto;
 float: center;
 list-style-type:none;
 padding:0;
@@ -103,7 +102,7 @@ height: 60px;
 
 .meny_li
 {
-float:left;
+float:center;
 
 }
 
