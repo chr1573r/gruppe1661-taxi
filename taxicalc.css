@@ -1,9 +1,7 @@
 #markert {
 /* background-color: #BCA551; */
-border-top: 1px solid #BCA551;
-border-right: 1px solid #BCA551;
-border-bottom: 6px solid #BCA551;
-border-left: 1px solid #BCA551;
+
+border-bottom: 6px dashed white;
 background-color: #E5E2D3;
 color: black; 
 }
@@ -121,11 +119,12 @@ float:left;
 clear:both;
 text-align:center;
 font-style: bold;
-/* border:0px 20px 20px 0px solid red; */
+/*
 border-top: 1px solid #191918;
 border-right: 1px solid #191918;
 border-bottom: 4px solid #191918;
 border-left: 1px solid #191918;
+ */
 
 }
 
