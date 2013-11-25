@@ -9,6 +9,7 @@ if ($side="forside")
 ?>
 <li class="meny_li"><a class="meny_a" id="markert" href="index.php">Forside</a></li>
 <?
+}
 else
 {
 ?>
