@@ -2,6 +2,7 @@
 <div id="innhold">
 	<img src="img/PNG/Header.png" />
 <ul align="center" id="meny_ul">
+<?php
 if side=Forside 
 {
 <li class="meny_li"><a class="meny_a" id="markert" href="index.php">Forside</a></li>
@@ -31,6 +32,6 @@ else
 
 <li class="meny_li"><a class="meny_a" href="tilbakemelding.php">Tilbakemelding</a><li>
 } 
-<?
+?>
 
 </ul> 
