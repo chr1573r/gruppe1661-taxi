@@ -90,7 +90,7 @@ color: silver;
 
 .meny_ul
 {
-text-align: center;
+margin: 0 auto;
 float: center;
 list-style-type:none;
 padding:0;
