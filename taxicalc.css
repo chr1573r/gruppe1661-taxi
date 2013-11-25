@@ -89,7 +89,8 @@ color: silver;
 }
 
 .meny_ul
-{	
+{
+text-align: center;
 float: center;
 list-style-type:none;
 padding:0;
