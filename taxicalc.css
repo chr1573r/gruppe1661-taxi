@@ -1,10 +1,8 @@
 #markert {
 /* background-color: #BCA551; */
-border-top: 1px solid #BCA551;
-border-right: 1px solid #BCA551;
-border-bottom: 6px solid #BCA551;
-border-left: 1px solid #BCA551;
-background-color: #E5E2D3;
+/* background-color: #E5E2D3; */
+/* border-bottom: 6px solid #BCA551; */
+background-color:#FEC500;
 color: black; 
 }
 *{
@@ -113,7 +111,8 @@ display:block;
 width:150px;
 height: 20px;
 text-decoration:none;
-background-color:#FEC500;
+/* gul farge background-color:#FEC500; */
+background-color: #E5E2D3;
 color:black;
 padding:3px 10px;
 margin:3px 10px;
