@@ -4,7 +4,6 @@
 <ul align="center" class="meny_ul">
 <?php
 global $side;
-echo "Valgt menyelement: $side";
 if ($side == "forside")
 	{ //Hvis side er forside:
 		?>
