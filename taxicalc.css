@@ -1,17 +1,14 @@
 #markert {
-<<<<<<< HEAD
 /* background-color: #BCA551; */
 border-top: 1px solid #BCA551;
 border-right: 1px solid #BCA551;
 border-bottom: 6px solid #BCA551;
 border-left: 1px solid #BCA551;
-=======
 background-color: #E5E2D3;
->>>>>>> 9f75967a2e5ac12ef6846dd6f59919a78cf69cdf
 color: black; 
 }
 *{
-	border: 1px dashed gray 
+	/* border: 1px dashed gray */
 }
 
 h1 {
