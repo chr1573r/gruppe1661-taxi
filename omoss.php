@@ -39,8 +39,8 @@ Funfact: Tror på spøkelser <br> <br>
 <h3> Kevin Chisholm </h3>
 23 år <br>
 Fra Bergen <br>
-Hobby:<br>
-Jobberfaringer:<br>
+Hobby:Gaming<br>
+Jobberfaringer:Litt forskjellig<br>
 Funfact: Har en morbid humor <br> <br>
 
 <h3> Pål Sandnes </h3>
