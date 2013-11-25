@@ -6,7 +6,9 @@
 </head>
 
 <body>
-<?php include("header.php");?>
+<?php 
+$side="omoss";
+include("header.php");?>
 
 <h2> Om oss: </h2>
 <a href="https://www.facebook.com/pages/Taxicalc/325718240901463?fref=ts"><img src="img/gruppe1661_mnavn_png.png" /></a>
@@ -30,8 +32,8 @@ Funfact: Var gitarist i et "screamo"/metal band <br> <br>
 <h3> Christoffer Lien </h3>
 24 år <br>
 Fra Kristiansand <br>
-Hobby: film og tvserier, politikk
-Jobberfaringer: vært telefonselger i over 4 år, ellers diverse sommerjobber
+Hobby: film og tvserier, politikk <br>
+Jobberfaringer: vært telefonselger i over 4 år, ellers diverse sommerjobber <br>
 Funfact: Tror på spøkelser <br> <br>
 
 <h3> Kevin Chisholm </h3>

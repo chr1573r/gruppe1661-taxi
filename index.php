@@ -7,7 +7,10 @@
 </head>
 
 <body>
-<?php include("header.php");?>
+
+<?php
+$side="forside";
+include("header.php");?>
 
 <div class="reisekalkulator">
 <h1>Reisekalkulator</h1>

@@ -6,7 +6,9 @@
 </head>
 
 <body>
-<?php include("header.php");?>
+<?php 
+$side="taxiinformasjon";
+include("header.php");?>
 
 </head>
 

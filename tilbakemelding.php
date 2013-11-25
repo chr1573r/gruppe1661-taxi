@@ -7,7 +7,9 @@
 </head>
 <body>
 	<div align="left">
-<?php include("header.php");?>
+<?php 
+$side="tilbakemelding";
+include("header.php");?>
 
 <div align="left">
 
