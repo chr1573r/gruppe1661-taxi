@@ -40,7 +40,7 @@ if (isset($_REQUEST['email']))
  }
 else
  {//if "email" is not filled out, display the form
- echo "<form method='post'>
+ echo "<form method='post' action='Epost.php'>
  Din Epost: <input name='email' type='text'><br>
  Emne: <input name='subject' type='text'><br>
  Melding:<br>
