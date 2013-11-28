@@ -44,11 +44,11 @@ Jobberfaringer:Litt forskjellig<br>
 Funfact: Har en morbid humor <br> <br>
 
 <h3> Pål Sandnes </h3>
-21 år <br>
-Fra Risør <br>
-Hobby: Data/Spill, Setesdal/Snøscooter, Risør/Båt <br>
-Jobberfaringer: Jobber i et IT/Utvikling selskap som Konsulent <br>
-Funfact: Begynner å gråte hvis han taper 3 FIFA-kamper på rad <br> <br>
+<b>21 år</b> <br>
+<b>Fra Risør</b> <br>
+<b>Hobby:</b> Data/Spill, Setesdal/Snøscooter, Risør/Båt <br>
+<b>Jobberfaringer:</b> Jobber i et IT/Utvikling selskap som Konsulent <br>
+<b>Funfact:</b> Begynner å gråte hvis han taper 3 FIFA-kamper på rad <br> <br>
 
 
 
