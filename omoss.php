@@ -16,32 +16,32 @@ include("header.php");?>
 <br>
 
 <h3> Nadia Nabiyar </h3> 
-24 år <br>
-Fra Danmark <br>
-Hobby:<br>
-Jobberfaringer:<br>
-Funfact:Nei... <br> <br>
+<b>24 år</b> <br>
+<b>Fra Danmark</b> <br>
+<b>Hobby:</b><br>
+<b>Jobberfaringer:</b><br>
+<b>Funfact:</b> Nei... <br> <br>
 
 <h3> Christer Jonassen: </h3>
-23 år <br>
-Fra Stavanger <br>
-Hobby: Data, spill, serier/film og frivillig arbeid<br>
-Jobberfaringer: IKT-Tekniker hos Rogaland fylkeskommune<br>
-Funfact: Var gitarist i et "screamo"/metal band <br> <br>
+<b>23 år</b> <br>
+<b>Fra Stavanger</b> <br>
+<b>Hobby:</b> Data, spill, serier/film og frivillig arbeid<br>
+<b>Jobberfaringer:</b> IKT-Tekniker hos Rogaland fylkeskommune<br>
+<b>Funfact:</b> Var gitarist i et "screamo"/metal band <br> <br>
 
 <h3> Christoffer Lien </h3>
-24 år <br>
-Fra Kristiansand <br>
-Hobby: film og tvserier, politikk <br>
-Jobberfaringer: vært telefonselger i over 4 år, ellers diverse sommerjobber <br>
-Funfact: Tror på spøkelser <br> <br>
+<b>24 år</b> <br>
+<b>Fra Kristiansand</b> <br>
+<b>Hobby:</b> film og tvserier, politikk <br>
+<b>Jobberfaringer:</b> vært telefonselger i over 4 år, ellers diverse sommerjobber <br>
+<b>Funfact:</b> Tror på spøkelser <br> <br>
 
 <h3> Kevin Chisholm </h3>
-23 år <br>
-Fra Bergen <br>
-Hobby:Gaming<br>
-Jobberfaringer:Litt forskjellig<br>
-Funfact: Har en morbid humor <br> <br>
+<b>23 år</b> <br>
+<b>Fra Bergen</b> <br>
+<b>Hobby:</b>Gaming<br>
+<b>Jobberfaringer:</b>Litt forskjellig<br>
+<b>Funfact:</b> Har en morbid humor <br> <br>
 
 <h3> Pål Sandnes </h3>
 <b>21 år</b> <br>
