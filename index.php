@@ -11,10 +11,6 @@
 <?php
 $side="forside";
 include("header.php");?>
-<h2>
-hei, vi er gruppe 1661! Velkommen til taxicalc, en smartere måte å planlegge din taxitur på!
-</h2>
-<br>
 
 <div class="reisekalkulator">
 <h1>Reisekalkulator</h1>
