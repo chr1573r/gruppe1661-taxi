@@ -33,14 +33,14 @@ else
 if ($side == "omoss")
 	{ //Hvis side er om oss:
 		?>
-		<li class="meny_li"><a class="meny_a" id="markert" href="omoss.php">Om oss</a></li>
+		<li class="meny_li"><a class="meny_a" id="markert" href="omoss.php">Hvem er vi</a></li>
 		<?
 	}
 
 else
 	{
 		?>
-		<li class="meny_li"><a class="meny_a" href="omoss.php">Om oss</a></li>
+		<li class="meny_li"><a class="meny_a" href="omoss.php">Hvem er vi</a></li>
 		<?
 	}
 
@@ -48,13 +48,13 @@ else
 if ($side == "tilbakemelding")
 	{ //Hvis side er tilbakemelding:
 		?> 
-		<li class="meny_li"><a class="meny_a" id="markert" href="tilbakemelding.php">Tilbakemelding</a><li>
+		<li class="meny_li"><a class="meny_a" id="markert" href="tilbakemelding.php">Kontakt oss </a><li>
 		<?
 	}
 else
 	{
 		?>
-		<li class="meny_li"><a class="meny_a" href="tilbakemelding.php">Tilbakemelding</a><li>
+		<li class="meny_li"><a class="meny_a" href="tilbakemelding.php">Kontakt oss</a><li>
 		<?
 	} 
 ?>
