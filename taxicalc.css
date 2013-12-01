@@ -37,15 +37,6 @@ a:visited {
 color: #9AB2D2;
 }
 
-small a:link {
-/* ny lenke under google kart */
-color: #9AB2D3;
-}
-
-small a:visited {
-/* besøkt lenke under google kart*/
-color: #9AB2D2;
-}
 
 #innhold {
 	width: 991px;
@@ -125,6 +116,7 @@ height: 20px;
 /* gul farge background-color:#FEC500; */
 text-decoration:none !important;
 color:black !important;
+font-size: 105% !important;
 background-color: #E5E2D3;
 padding:3px 10px;
 margin:3px 10px;
