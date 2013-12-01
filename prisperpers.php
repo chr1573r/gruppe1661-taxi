@@ -5,12 +5,6 @@
  
 if ($antall > 1)
 {
-?>
-<div align="right">
-<?php
 echo "$produkt kr per person"; 
-?>
-</div>
-<?php
 }
  ?> 
