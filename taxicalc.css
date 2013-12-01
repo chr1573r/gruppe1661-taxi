@@ -25,6 +25,20 @@ body {
 	background-color: #292929;
 }
 
+a:link {
+/* ny lenke */
+text-decoration: underline;
+font-weight: none;
+color: #9AB2D3
+}
+a:visited {
+/* besøkt lenke */
+text-decoration: underline;
+font-weight: none;
+color: #E0D4B1;
+  }
+
+
 #innhold {
 	width: 991px;
 	height: 900px;
