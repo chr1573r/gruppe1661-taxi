@@ -19,7 +19,7 @@ function BeregnTakst()
 		$prisperkm_sor= 13.04;		// kr. pr. km. hos Taxi Sør
 		$prispermin_sor= 6.24;		// kr. pr. min. hos Taxi Sør
 	}
-	else // Hvis "KVELD/NATT/HELG" er valgt:
+	elseif ($takst == "kveld") // Hvis "KVELD/NATT/HELG" er valgt:
 	{
 		$startpris=81;// Start pris
 
@@ -28,7 +28,25 @@ function BeregnTakst()
 		$prisperkm_sor= 16.95;	 	// kr. pr. km. hos Taxi Sør
 		$prispermin_sor= 8.50;		// kr. pr. min. hos Taxi Sør
 	}
-	//return ;
+	elseif ($takst == "helg") // Hvis "HELG" er valgt:
+	{
+		$startpris=87;// Start pris
+
+		$prisperkm_agder= 16.30; 	// kr. pr. km. hos AgderTaxi
+		$prispermin_agder= 10.50;	// kr. pr. min. hos AgderTaxi
+		$prisperkm_sor= 18.26;	 	// kr. pr. km. hos Taxi Sør
+		$prispermin_sor= 9.81;		// kr. pr. min. hos Taxi Sør
+	}
+	elseif ($takst == "hoytid") // Hvis "HØYTID OG HELLIGDAGER" er valgt:
+	{
+		$startpris=93;// Start pris
+
+		$prisperkm_agder= 17.40; 	// kr. pr. km. hos AgderTaxi
+		$prispermin_agder= 11.30;	// kr. pr. min. hos AgderTaxi
+		$prisperkm_sor= 19.56;	 	// kr. pr. km. hos Taxi Sør
+		$prispermin_sor= 9.81;		// kr. pr. min. hos Taxi Sør
+	}
+
 }
 
 function RegnUt()

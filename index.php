@@ -42,7 +42,9 @@ Til:
 
 
 <input type="radio" name="takst" value="dag" checked="checked">Dag<br>
-<input type="radio" name="takst" value="kveld">Kveld/Helg<br>
+<input type="radio" name="takst" value="kveld">Kveld/Natt/Helg<br>
+<input type="radio" name="takst" value="helg">Helg<br>
+<input type="radio" name="takst" value="hoytid">Høytid og helligdager<br>
 
 <h2>3. Antall reisende:</h2>
 
@@ -74,13 +76,22 @@ if (isset($_POST['beregnpriser']))
 
 
  <p id="takstinfo">
-* Taxi operatørene har forskjellige takster utifra tid på døgnet:<br><br>
-Dag: man-fre 06.00-20.00 <br><br>
+<strong>* Taxi operatørene har forskjellige takster utifra tid på døgnet:</strong><br><br>
+Dag: <br>
+Man-Fre: 06.00-20.00 <br><br>
 
-Kveld/Helg:<br>
-man-fre 20.00-24.00 <br>
-lørdag 06.00-18.00 <br>
-søndag 06.00-06.00
+<strong>Kveld/Natt/Helg:</strong><br>
+Man-Tor 20.00-24.00 <br>
+Lørdag 06.00-18.00 <br>
+Søndag 06.00-06.00 <br><br>
+
+<strong>Helg:</strong><br>
+Fredag 20.00-06.00 <br>
+Lørdag 18.00-06.00 <br><br>
+
+<strong>Høytid og helligdager:</strong><br>
+Påske-, pinse-, jul- og nyttårsaften fra kl. 1200 til kl. 2400<br>
+Bevegelige helligdager fra kl. 0000 til kl. 2400.<br>
 </p>
 </div>
 
