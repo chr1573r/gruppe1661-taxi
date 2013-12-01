@@ -62,14 +62,14 @@ function RegnUt()
 		$billigsteselskap = "Agder Taxi";
 		$billigstepris = round($pris_agder);
 		$dyresteselskap = "Taxi Sør";
-		$dyrestepris = $pris_sor;
+		$dyrestepris = round($pris_sor);
 	}
 	else // Hvis Taxi sør er billigst:
 	{
 		$billigsteselskap = "Taxi Sør";
 		$billigstepris = round($pris_sor);
 		$dyresteselskap = "Agder Taxi";
-		$dyrestepris = $pris_agder;
+		$dyrestepris = round($pris_agder);
 	}
 	$differanse = $dyrestepris - $billigstepris;
 	//return $pris_agder, $pris_sor, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris;
@@ -81,6 +81,7 @@ function SkrivUtResultat()
 	// Skriv ut resultat
 	echo "<span id=\"utdata_header\">Billigste alternativ:</span><br>";
 	echo "<span id=\"utdata_billigste\">Taxioperatør: $billigsteselskap</span><br>";
+	echo "<span id=\"utdata_billigste\">$differanse kr billigere enn $dyresteselskap</span><br>";
 	echo "<span id=\"utdata_reisetid\">Reisetid: $reisetid_tekst</span><br>";
 	?>
 	<div align="right">
@@ -105,7 +106,7 @@ if ( identifiserRute() != "feil" ) // Identifiser ruten som er valg i input form
 	}
 else
 	{
-		echo "<p id=\"utdata_feil\">Fra og til kan ikke være samme sted!";
+		echo "<p id=\"utdata_feil\">Fra og til kan ikke være samme sted!<br>";
 		echo "Velg på nytt.</p>";
 	}
 return $rutekode;
