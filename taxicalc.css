@@ -47,14 +47,14 @@ body {
 }
 
 #takstinfo {
-font-size: 0.5em;
+font-size: 0.7em;
 color: silver;
 }
 
 .reisekalkulator {
 	float: left;
 	width: 330px;
-	height: 620px;
+	height: 640px;
 	border-radius: 2px;
 	padding: 2px 4px 2px 8px;
 	background-color: #191918;
