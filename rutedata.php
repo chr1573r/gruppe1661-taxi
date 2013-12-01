@@ -72,10 +72,10 @@ function rutedata($parameter)
 // rutedata() trenger variabelen $rutekode for å fungere. Dette blir satt av identifiserRute()
 {
 	global $rutekode, $antall_km, $reisetid_min, $reisetid_tekst, $fra_desc, $til_desc;
-	if ($parameter == "viskart")
-	{
-		echo "<span id=\"utdata_sum\">$fra_desc-$til_desc:<br></span>";
-	}
+	//if ($parameter == "viskart") // Hvis reise skal vises ovenfor kart
+	//{
+	//	echo "<span id=\"utdata_sum\">$fra_desc-$til_desc:<br></span>";
+	//}
 // Case statements laget automatisk med lag_ruter.sh
 	switch ("$rutekode") {
 

@@ -77,9 +77,10 @@ function RegnUt()
 
 function SkrivUtResultat()
 	{
-	global $takst, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris, $reisetid_tekst, $differanse;
+	global $takst, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris, $reisetid_tekst, $differanse, $fra_desc, $til_desc;
 	// Skriv ut resultat
 	echo "<span id=\"utdata_header\">Billigste alternativ:</span><br>";
+	echo "<span id=\"utdata_reise\">Reise: $fra_desc - $til_desc</span><br>";
 	echo "<span id=\"utdata_billigste\">Taxioperatør: $billigsteselskap</span><br>";
 	echo "<span id=\"utdata_reisetid\">Reisetid: $reisetid_tekst</span><br>";
 	?>
