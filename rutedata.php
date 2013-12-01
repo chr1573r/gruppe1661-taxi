@@ -14,42 +14,42 @@ function identifiserRute()
 
 			switch ("$fra"){ // Gir stedsbeskrivelse til angitt "fra" sted
 				case 'uik':
-					$fra_desc="UIA Kristiansand"
+					$fra_desc="UIA Kristiansand";
 					break;
 				case 'uig':
-					$fra_desc="UIA Grimstad"
+					$fra_desc="UIA Grimstad";
 					break;
 				case 'krs':
-					$fra_desc="Kristiansand sentrum"
+					$fra_desc="Kristiansand sentrum";
 					break;
 				case 'man':
-					$fra_desc="Mandal sentrum"
+					$fra_desc="Mandal sentrum";
 					break;
 				case 'ven':
-					$fra_desc="Vennesla sentrum"
+					$fra_desc="Vennesla sentrum";
 					break;
 				case 'sog':
-					$fra_desc="Søgne sentrum"
+					$fra_desc="Søgne sentrum";
 					break;
 			}
 			switch ("$til"){ // Gir stedsbeskrivelse til angitt "til" sted
 				case 'uik':
-					$til_desc="UIA Kristiansand"
+					$til_desc="UIA Kristiansand";
 					break;
 				case 'uig':
-					$til_desc="UIA Grimstad"
+					$til_desc="UIA Grimstad";
 					break;
 				case 'krs':
-					$til_desc="Kristiansand sentrum"
+					$til_desc="Kristiansand sentrum";
 					break;
 				case 'man':
-					$til_desc="Mandal sentrum"
+					$til_desc="Mandal sentrum";
 					break;
 				case 'ven':
-					$til_desc="Vennesla sentrum"
+					$til_desc="Vennesla sentrum";
 					break;
 				case 'sog':
-					$til_desc="Søgne sentrum"
+					$til_desc="Søgne sentrum";
 					break;
 			}
 		}
