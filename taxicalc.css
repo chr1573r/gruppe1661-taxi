@@ -24,7 +24,6 @@ h2 {
 
 body {
 	color:white;
-	font-size: 105%;
 	background-color: #292929;
 }
 
@@ -38,6 +37,15 @@ a:visited {
 color: #9AB2D2;
 }
 
+small a:link {
+/* ny lenke under google kart */
+color: #9AB2D3;
+}
+
+small a:visited {
+/* besøkt lenke under google kart*/
+color: #9AB2D2;
+}
 
 #innhold {
 	width: 991px;
