@@ -40,7 +40,7 @@ color: #9AB2D2;
 
 #innhold {
 	width: 991px;
-	height: 900px;
+	height: 930px;
 }
 
 
@@ -67,7 +67,7 @@ color: silver;
 .reisekalkulator {
 	float: left;
 	width: 330px;
-	height: 730px;
+	height: 750px;
 	border-radius: 2px;
 	padding: 2px 4px 2px 8px;
 	background-color: #191918;
@@ -97,7 +97,7 @@ list-style-type:none;
 padding:0;
 /* overflow:hidden; */
 width: 990px;
-height: 45px;
+height: px;
 /* background-color: #191918 */
 
 }
