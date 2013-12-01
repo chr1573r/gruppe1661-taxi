@@ -4,7 +4,9 @@
 /* border-bottom: 6px solid #BCA551; */
 background-color:#FEC500;
 color: black; 
+text-decoration:none;
 }
+
 *{
 	/* border: 1px dashed gray */
 }
@@ -19,6 +21,7 @@ h2 {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 105%;
 }
+
 body {
 	color:white;
 	font-size: 105%;
@@ -27,16 +30,13 @@ body {
 
 a:link {
 /* ny lenke */
-text-decoration: underline;
-font-weight: none;
 color: #9AB2D3;
 }
+
 a:visited {
 /* besøkt lenke */
-text-decoration: underline;
-font-weight: none;
 color: #9AB2D2;
-  }
+}
 
 
 #innhold {
@@ -76,15 +76,6 @@ color: silver;
 }
 
 
-#beregnknapp {
-	/*color: white; */
-	/*background-color: green; */
-	/*width: 100px;*/
-	/*height: 40px;*/
-	/* border-radius: 1px; */
-	/* border: 1px solid white; */
-	/*font-size: 16px;*/
-}
 
 #kart {
 	float: right;
