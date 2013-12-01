@@ -7,10 +7,51 @@ function identifiserRute()
 // Hvis "fra" og "til" er forskjellig, setter den sammen verdiene til en såkalt rutekode
 // Rutekoden er en unik identifikator som brukes når vi skal laste inn rett kart for reisen.
 {
-	global $fra, $til, $rutekode;		//Sørg for at fra, til og rutekode manipuleres globalt
+	global $fra, $til, $rutekode, $fra_desc, $til_desc;		//Sørg for at fra, til og rutekode manipuleres globalt
 	if ( "$fra" != "$til" )
 		{
 			$rutekode= $fra . $til;		// Setter sammen fra og til, f.eks. krsman for "kristiansand -> mandal"
+
+			switch ("$fra"){ // Gir stedsbeskrivelse til angitt "fra" sted
+				case 'uik':
+					$fra_desc="UIA Kristiansand"
+					break;
+				case 'uig':
+					$fra_desc="UIA Grimstad"
+					break;
+				case 'krs':
+					$fra_desc="Kristiansand sentrum"
+					break;
+				case 'man':
+					$fra_desc="Mandal sentrum"
+					break;
+				case 'ven':
+					$fra_desc="Vennesla sentrum"
+					break;
+				case 'sog':
+					$fra_desc="Søgne sentrum"
+					break;
+			}
+			switch ("$til"){ // Gir stedsbeskrivelse til angitt "til" sted
+				case 'uik':
+					$til_desc="UIA Kristiansand"
+					break;
+				case 'uig':
+					$til_desc="UIA Grimstad"
+					break;
+				case 'krs':
+					$til_desc="Kristiansand sentrum"
+					break;
+				case 'man':
+					$til_desc="Mandal sentrum"
+					break;
+				case 'ven':
+					$til_desc="Vennesla sentrum"
+					break;
+				case 'sog':
+					$til_desc="Søgne sentrum"
+					break;
+			}
 		}
 	else
 		{
@@ -30,7 +71,11 @@ function rutedata($parameter)
 //
 // rutedata() trenger variabelen $rutekode for å fungere. Dette blir satt av identifiserRute()
 {
-	global $rutekode, $antall_km, $reisetid_min, $reisetid_tekst;
+	global $rutekode, $antall_km, $reisetid_min, $reisetid_tekst, $fra_desc, $til_desc;
+	if ($parameter == "viskart")
+	{
+		echo "<span id=\"utdata_sum\">$fra_desc-$til_desc:<br></span>";
+	}
 // Case statements laget automatisk med lag_ruter.sh
 	switch ("$rutekode") {
 
