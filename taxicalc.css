@@ -29,13 +29,13 @@ a:link {
 /* ny lenke */
 text-decoration: underline;
 font-weight: none;
-color: #9AB2D3
+color: #9AB2D3;
 }
 a:visited {
 /* besøkt lenke */
 text-decoration: underline;
 font-weight: none;
-color: #E0D4B1;
+color: #9AB2D2;
   }
 
 
@@ -124,10 +124,8 @@ float:left;
 display:block;
 width:150px;
 height: 20px;
-text-decoration:none;
 /* gul farge background-color:#FEC500; */
 background-color: #E5E2D3;
-color:black;
 padding:3px 10px;
 margin:3px 10px;
 float: center;
@@ -141,6 +139,18 @@ border-bottom: 4px solid #191918;
 border-left: 1px solid #191918;
 
 }
+
+.meny_a a:link
+{
+	text-decoration:none;
+	color:black;
+}
+.meny_a a:visited
+{
+	text-decoration:none;
+	color:black;
+}
+
 
 .fb-comments 
 {
