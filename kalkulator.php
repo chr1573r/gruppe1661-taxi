@@ -51,7 +51,7 @@ function BeregnTakst()
 
 function RegnUt()
 {
-	global $antall_km, $startpris, $prisperkm_agder, $prispermin_agder, $prisperkm_sor, $prispermin_sor, $pris_agder, $pris_sor, $reisetid_min, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris;
+	global $antall_km, $startpris, $prisperkm_agder, $prispermin_agder, $prisperkm_sor, $prispermin_sor, $pris_agder, $pris_sor, $reisetid_min, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris, $differanse;
 	// Regn ut total priser:
 	$pris_agder=$startpris+($antall_km*$prisperkm_agder)+($reisetid_min*$prispermin_agder);
 	$pris_sor=$startpris+($antall_km*$prisperkm_sor)+($reisetid_min*$prispermin_sor);
@@ -71,6 +71,7 @@ function RegnUt()
 		$dyresteselskap = "Agder Taxi";
 		$dyrestepris = $pris_agder;
 	}
+	$differanse = $dyrestepris - $billigstepris;
 	//return $pris_agder, $pris_sor, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris;
 }
 
@@ -85,6 +86,7 @@ function SkrivUtResultat()
 	<div align="right">
 	<?php
 	echo "Totalt: <span id=\"utdata_sum\">$billigstepris,-<br></span>";
+	echo "($differanse kr billigere enn $dyresteselskap)";
 	?>
 	</div>
 	<?php
@@ -103,8 +105,8 @@ if ( identifiserRute() != "feil" ) // Identifiser ruten som er valg i input form
 	}
 else
 	{
-		echo "<p id=\"utdata_feil\">Fra og til kan ikke være samme sted!</p><br>";
-		echo "<p id=\"utdata_feil\">Velg på nytt.</p><br>";
+		echo "<p id=\"utdata_feil\">Fra og til kan ikke være samme sted!";
+		echo "Velg på nytt.</p>";
 	}
 return $rutekode;
 
