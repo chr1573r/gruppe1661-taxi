@@ -80,14 +80,13 @@ function SkrivUtResultat()
 	global $takst, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris, $reisetid_tekst, $differanse;
 	// Skriv ut resultat
 	echo "<span id=\"utdata_header\">Billigste alternativ:</span><br>";
+	echo "<span id=\"utdata_billigste\">Differanse: $differanse kr billigere</span><br>";
 	echo "<span id=\"utdata_billigste\">Taxioperatør: $billigsteselskap</span><br>";
-	echo "<span id=\"utdata_billigste\">$differanse kr billigere enn $dyresteselskap</span><br>";
 	echo "<span id=\"utdata_reisetid\">Reisetid: $reisetid_tekst</span><br>";
 	?>
 	<div align="right">
 	<?php
 	echo "Totalt: <span id=\"utdata_sum\">$billigstepris,-<br></span>";
-	echo "($differanse kr billigere enn $dyresteselskap)";
 	?>
 	</div>
 	<?php
