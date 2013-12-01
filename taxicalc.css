@@ -111,11 +111,12 @@ float:left;
 
 .meny_a
 {
-
 display:block;
 width:150px;
 height: 20px;
 /* gul farge background-color:#FEC500; */
+text-decoration:none !important;
+color:black !important;
 background-color: #E5E2D3;
 padding:3px 10px;
 margin:3px 10px;
@@ -130,18 +131,6 @@ border-bottom: 4px solid #191918;
 border-left: 1px solid #191918;
 
 }
-
-.meny_a a:link
-{
-	text-decoration:none;
-	color:black;
-}
-.meny_a a:visited
-{
-	text-decoration:none;
-	color:black;
-}
-
 
 .fb-comments 
 {
