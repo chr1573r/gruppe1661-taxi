@@ -86,6 +86,8 @@ function SkrivUtResultat()
 	<div align="right">
 	<?php
 	echo "Totalt: <span id=\"utdata_sum\">$billigstepris,-<br></span>";
+	include ("prisperpers.php");
+	echo "<span id=\"utdata_differanse\">Du sparer $differanse kr</span>";
 	?>
 	</div>
 	<?php
@@ -100,8 +102,6 @@ if ( identifiserRute() != "feil" ) // Identifiser ruten som er valg i input form
 		rutedata("hentinfo");
 		RegnUt();
 		SkrivUtResultat();
-		include ("prisperpers.php");
-		echo "<span id=\"utdata_differanse\">Du sparer $differanse kr</span>";
 	}
 else
 	{
