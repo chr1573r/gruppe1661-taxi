@@ -77,7 +77,7 @@ function RegnUt()
 
 function SkrivUtResultat()
 	{
-	global $takst, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris, $reisetid_tekst;
+	global $takst, $billigsteselskap, $billigstepris, $dyresteselskap, $dyrestepris, $reisetid_tekst, $differanse;
 	// Skriv ut resultat
 	echo "<span id=\"utdata_header\">Billigste alternativ:</span><br>";
 	echo "<span id=\"utdata_billigste\">Taxioperatør: $billigsteselskap</span><br>";
