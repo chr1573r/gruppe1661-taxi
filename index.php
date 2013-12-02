@@ -82,18 +82,18 @@ if (isset($_POST['beregnpriser']))
 <tr>
     <td id="takstinfo_kolonne_1"><strong>Dag:</strong></td>
     <td id="takstinfo_kolonne_2">Man-Fre:</td>
-    <td>06.00-20.00</td>
+    <td id="takstinfo_kolonne_3">06.00-20.00</td>
 </tr>
 <tr>
     <td id="takstinfo_kolonne_1"><strong>Kveld/Natt/Helg:</strong></td>
     <td id="takstinfo_kolonne_2">Man-Tor:<br> Lørdag:<br> Søndag:<br></td>
-    <td>20.00-24.00<br>06.00-18.00<br>06.00-06.00<br></td>
+    <td id="takstinfo_kolonne_3">20.00-24.00<br>06.00-18.00<br>06.00-06.00<br></td>
 </tr>
 
 <tr>
     <td id="takstinfo_kolonne_1"><strong>Helg:</strong></td>
     <td id="takstinfo_kolonne_2">Fredag:<br>Lørdag:<br></td>
-    <td>20.00-06.00 <br>18.00-06.00</td>
+    <td id="takstinfo_kolonne_3">20.00-06.00 <br>18.00-06.00</td>
 </tr>
 
 </table>
