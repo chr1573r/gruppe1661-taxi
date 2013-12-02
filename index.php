@@ -18,27 +18,39 @@ include("header.php");?>
 <h2>1. Velg ønsket reise og destinasjon:</h2>
 
 <form action="index.php" method="post">
-Fra:
-<select name="fra">
-	<option value="uik">UiA Kristiansand</option>
-	<option value="uig">UiA Grimstad</option>
-	<option value="krs">Kristiansand sentrum</option>
-	<option value="man">Mandal sentrum</option>
-	<option value="ven">Vennesla sentrum</option>
-	<option value="sog">Søgne sentrum</option>
-</select>
+<table id="reisekalkulator_fratil">
+<tr>
+	<td>
+		Fra:
+	</td>
+	<td>
+		<select name="fra">
+			<option value="uik">UiA Kristiansand</option>
+			<option value="uig">UiA Grimstad</option>
+			<option value="krs">Kristiansand sentrum</option>
+			<option value="man">Mandal sentrum</option>
+			<option value="ven">Vennesla sentrum</option>
+			<option value="sog">Søgne sentrum</option>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td>
+		Til:
+	</td>
+	<td>
+		<select name="til">
+			<option value="krs">Kristiansand sentrum</option>
+			<option value="uik">UiA Kristiansand</option>
+			<option value="uig">UiA Grimstad</option>
+			<option value="man">Mandal sentrum</option>
+			<option value="ven">Vennesla sentrum</option>
+			<option value="sog">Søgne sentrum</option>
+		</select>
+	</td>
+</tr>
+</table>
 <br>
-Til:
-<select name="til">
-	<option value="krs">Kristiansand sentrum</option>
-	<option value="uik">UiA Kristiansand</option>
-	<option value="uig">UiA Grimstad</option>
-	<option value="man">Mandal sentrum</option>
-	<option value="ven">Vennesla sentrum</option>
-	<option value="sog">Søgne sentrum</option>
-</select>
-<br>
-
 <h2>2. Velg tidspunkt*:</h2>
 
 
