@@ -50,7 +50,6 @@ include("header.php");?>
 	</td>
 </tr>
 </table>
-<br>
 <h2>2. Velg tidspunkt*:</h2>
 
 
