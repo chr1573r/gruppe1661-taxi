@@ -78,17 +78,25 @@ if (isset($_POST['beregnpriser']))
 
  <p id="takstinfo">
 <strong>* Taxi operatørene har forskjellige takster utifra tid på døgnet:</strong><br><br>
-<strong>Dag:</strong><br>
-Man-Fre: 06.00-20.00 <br><br>
+<table border="0">
+<tr>
+    <td><strong>Dag:</strong></td>
+    <td>Man-Fre:</td>
+    <td>06.00-20.00</td>
+</tr>
+<tr>
+    <td style="vertical-align: top;"><strong>Kveld/Natt/Helg:</strong></td>
+    <td>Man-Tor:<br> Lørdag:<br> Søndag:<br></td>
+    <td>20.00-24.00<br>06.00-18.00<br>06.00-06.00<br></td>
+</tr>
 
-<strong>Kveld/Natt/Helg:</strong><br>
-Man-Tor 20.00-24.00 <br>
-Lørdag 06.00-18.00 <br>
-Søndag 06.00-06.00 <br><br>
+<tr>
+    <td style="vertical-align: top;"><strong>Helg:</strong></td>
+    <td>Fredag:<br>Lørdag:<br></td>
+    <td>20.00-06.00 <br>18.00-06.00</td>
+</tr>
 
-<strong>Helg:</strong><br>
-Fredag 20.00-06.00 <br>
-Lørdag 18.00-06.00 <br><br>
+</table>
 
 <strong>Høytid og helligdager:</strong><br>
 Påske-, pinse-, jul- og nyttårsaften fra kl. 1200 til kl. 2400<br>
