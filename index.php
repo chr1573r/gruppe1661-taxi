@@ -80,24 +80,24 @@ if (isset($_POST['beregnpriser']))
 <strong>* Taxi operatørene har forskjellige takster utifra tid på døgnet:</strong><br><br>
 <table class="takstinfo" id="takstinfo_tabell">
 <tr>
-    <td id="takstinfo_kolonne"><strong>Dag:</strong></td>
-    <td>Man-Fre:</td>
+    <td id="takstinfo_kolonne_1"><strong>Dag:</strong></td>
+    <td id="takstinfo_kolonne_2">Man-Fre:</td>
     <td>06.00-20.00</td>
 </tr>
 <tr>
-    <td id="takstinfo_kolonne"><strong>Kveld/Natt/Helg:</strong></td>
-    <td>Man-Tor:<br> Lørdag:<br> Søndag:<br></td>
+    <td id="takstinfo_kolonne_1"><strong>Kveld/Natt/Helg:</strong></td>
+    <td id="takstinfo_kolonne_2">Man-Tor:<br> Lørdag:<br> Søndag:<br></td>
     <td>20.00-24.00<br>06.00-18.00<br>06.00-06.00<br></td>
 </tr>
 
 <tr>
-    <td id="takstinfo_kolonne"><strong>Helg:</strong></td>
-    <td>Fredag:<br>Lørdag:<br></td>
+    <td id="takstinfo_kolonne_1"><strong>Helg:</strong></td>
+    <td id="takstinfo_kolonne_2">Fredag:<br>Lørdag:<br></td>
     <td>20.00-06.00 <br>18.00-06.00</td>
 </tr>
 
 </table>
-
+<br>
 <strong>Høytid og helligdager:</strong><br>
 Påske-, pinse-, jul- og nyttårsaften fra kl. 1200 til kl. 2400<br>
 Bevegelige helligdager fra kl. 0000 til kl. 2400.<br>
