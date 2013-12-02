@@ -18,8 +18,8 @@ include("header.php");?>
 <h3> Nadia Nabiyar </h3> 
 <b>24 år</b> <br>
 <b>Fra Danmark</b> <br>
-<b>Hobby:film,tvserier</b><br>
-<b>Jobberfaringer:Diverse sommerjobber</b><br>
+<b>Hobby:</b>film,tvserier<br>
+<b>Jobberfaringer:</b>Diverse sommerjobber<br>
 <b>Funfact:</b> Får ikke sove om natten etter en skrekkfilm <br> <br>
 
 <h3> Christer Jonassen: </h3>
