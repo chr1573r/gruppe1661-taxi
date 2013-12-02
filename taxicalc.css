@@ -74,7 +74,8 @@ color: silver;
 }
 #takstinfo_tabell {
 	vertical-align: top;
-	font-size: 0.9em;
+	border-collapse: collapse;
+	padding: 0;
 }
 
 .reisekalkulator {
