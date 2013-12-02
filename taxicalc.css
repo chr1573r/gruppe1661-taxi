@@ -68,10 +68,13 @@ color: #9AB2D2;
 	font-size: 0.8em;
 	color: silver;
 }
-#takstinfo {
+.takstinfo {
 font-size: 0.7em;
-vertical-align: top;
 color: silver;
+}
+#takstinfo_tabell {
+	vertical-align: top;
+	font-size: 0.9em;
 }
 
 .reisekalkulator {
