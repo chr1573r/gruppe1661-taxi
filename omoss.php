@@ -18,9 +18,9 @@ include("header.php");?>
 <h3> Nadia Nabiyar </h3> 
 <b>24 år</b> <br>
 <b>Fra Danmark</b> <br>
-<b>Hobby:</b><br>
-<b>Jobberfaringer:</b><br>
-<b>Funfact:</b> Nei... <br> <br>
+<b>Hobby:film,tvserier</b><br>
+<b>Jobberfaringer:Diverse sommerjobber</b><br>
+<b>Funfact:</b> Får ikke sove om natten etter en skrekkfilm <br> <br>
 
 <h3> Christer Jonassen: </h3>
 <b>23 år</b> <br>
