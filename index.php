@@ -78,7 +78,7 @@ if (isset($_POST['beregnpriser']))
 
  <p id="takstinfo">
 <strong>* Taxi operatørene har forskjellige takster utifra tid på døgnet:</strong><br><br>
-<table border="0">
+<table id="takstinfo" border="0">
 <tr>
     <td><strong>Dag:</strong></td>
     <td>Man-Fre:</td>
