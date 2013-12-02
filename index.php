@@ -93,7 +93,7 @@ if (isset($_POST['beregnpriser']))
 <tr>
     <td id="takstinfo_kolonne_1"><strong>Helg:</strong></td>
     <td id="takstinfo_kolonne_2">Fredag:<br>Lørdag:<br></td>
-    <td id="takstinfo_kolonne_3">20.00-06.00 <br>18.00-06.00</td>
+    <td id="takstinfo_kolonne_3">20.00-06.00<br>18.00-06.00</td>
 </tr>
 
 </table>
