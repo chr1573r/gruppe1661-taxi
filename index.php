@@ -97,7 +97,6 @@ if (isset($_POST['beregnpriser']))
 </tr>
 
 </table>
-<br>
 <strong>Høytid og helligdager:</strong><br>
 Påske-, pinse-, jul- og nyttårsaften fra kl. 1200 til kl. 2400<br>
 Bevegelige helligdager fra kl. 0000 til kl. 2400.<br>
