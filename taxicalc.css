@@ -75,15 +75,15 @@ color: silver;
 #takstinfo_tabell {
 	border: 0px;
 	font-size: 1.0em;
-	vertical-align: top;
 	border-collapse: collapse;
 	padding: 0;
 }
 #takstinfo_kolonne_1 {
-	padding: 0px 20px 3px 0px;
+	vertical-align: top;
+	padding: 0px 20px 5px 0px;
 }
 #takstinfo_kolonne_2 {
-	padding: 0px 5px 3px 0px;
+	padding: 0px 5px 5px 0px;
 }
 
 .reisekalkulator {
