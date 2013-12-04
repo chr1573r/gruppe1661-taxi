@@ -31,6 +31,9 @@ include("header.php");?>
 <div class="fb-comments" data-href="http://www.facebook.com/pages/Taxicalc/325718240901463" data-colorscheme="dark" data-numposts="20" data-width="600"></div>
 <br>
 <br>
+<br>
+
+<h1>Ønsker du og kontakte oss direkte? Bruk mailformen nedenfor</h1>
 
 <?php include("Epost.php");?>
 
