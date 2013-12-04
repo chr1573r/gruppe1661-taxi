@@ -1,6 +1,7 @@
 <!-- Denne filen inneholder bare navigasjonsmenyen -->
 <div id="innhold">
 	<img src="img/PNG/Header.png" />
+<link rel="icon" type="image/png" href="favicon.png"> <!-- favicon logo -->
 <ul align="center" class="meny_ul">
 <?php
 global $side;
