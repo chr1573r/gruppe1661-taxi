@@ -26,8 +26,12 @@ Adresse: Kartheia 5 <br>
 Telefon: 380 28000
 <br>
 <a href="http://www.taxisor.no">http://www.taxisor.no/</a> 
+<br>
+link til takster: 
+<a href="http://www.taxisor.no/page21.html">http://www.taxisor.no/page21.html/</a> 
 <br> <br> <br>
 <a href="http://www.agdertaxi.no/"><img src="img/agder_taxi_logo.jpg" /></a>
+
 <br>
 Agder Taxi AS
 <br>
@@ -37,6 +41,10 @@ Adresse: Tinnheiveien 15 <br>
 Telefon: 380 02000
 <br>
 <a href="http://www.agdertaxi.no">http://www.agdertaxi.no/</a>
+<br>
+link til takster:
+<a href="http://www.agdertaxi.no/?page_id=209">http://www.agdertaxi.no/?page_id=209
+
 
 <?php include("footer.php");?>
 
