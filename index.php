@@ -4,6 +4,7 @@
 	<meta charset="UTF-8" />
 	<title>TaxiCalc</title>
 	<link rel="stylesheet" type="text/css" href="taxicalc.css">
+	<link rel="icon" type="image/png" href="favicon.png"> <!-- favicon logo -->
 </head>
 
 <body>
