@@ -16,9 +16,6 @@ include("header.php");?>
 
 <h2>Her har vi samlet informasjon om de ulike taxiselskapene i Kristiansand</h2>
 
-<br>
-
-
 <a href="http://www.taxisor.no"><img src="img/taxisor_logo.jpg" width="250" height="160" /></a>
 <br>
 Taxi Sør AS
