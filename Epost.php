@@ -49,6 +49,7 @@ else
  <td>Emne: </td><td><input name='subject' type='text'></td>
  </tr>
  </table>
+ <br>
  Melding:<br>
  <textarea name='message' rows='15' cols='40'>
  </textarea><br>

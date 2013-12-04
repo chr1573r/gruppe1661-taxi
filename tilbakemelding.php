@@ -32,7 +32,7 @@ include("header.php");?>
 <br>
 <br>
 <br>
-<h1>Ønsker du og kontakte oss direkte? Bruk mailformen vår nedenfor!</h1>
+<h1>Ønsker du å kontakte oss direkte? Bruk mailformen vår nedenfor!</h1>
 <br>
 
 <?php include("Epost.php");?>
