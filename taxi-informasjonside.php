@@ -27,7 +27,6 @@ Telefon: 380 28000
 <br>
 <a href="http://www.taxisor.no">http://www.taxisor.no/</a> 
 <br>
-link til takster: 
 <a href="http://www.taxisor.no/page21.html">Takster/</a> 
 <br> <br> <br>
 <a href="http://www.agdertaxi.no/"><img src="img/agder_taxi_logo.jpg" /></a>
